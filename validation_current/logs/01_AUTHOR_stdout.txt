@@ -1,0 +1,7 @@
+[1/6] original_reproduction/reproduce.py
+[2/6] lz_benchmark/benchmark_lz.py
+[3/6] lz_benchmark/verify_exports.py
+[4/6] structured_benchmark/run_benchmark.py
+[5/6] resources/verify_resource_model.py
+[6/6] summarize_results.py
+PASS: all calculations reproduced in ${RUN_ROOT}/author

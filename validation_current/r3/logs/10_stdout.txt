@@ -1,0 +1,1 @@
+{"status": "EXACT_PASS", "n": 4, "arithmetic": "Independent native-six-level integer cyclotomic amplitudes; omega6^2=omega6-1; no CRT factorization in amplitude computation", "upper": "27/55", "all_256_template_values_agree_with_CRT_verifier": true, "common_denominator": 184757760, "seconds": 0.3017771244049072}

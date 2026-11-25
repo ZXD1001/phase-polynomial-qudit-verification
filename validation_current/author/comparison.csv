@@ -1,0 +1,27 @@
+n,protocol,gap,evidence,epsilon,delta,N_all_pass
+2,adaptive_two_colors,0.5,analytic,0.01,0.05,598
+2,uniform_independent_HT_matching,0.16666666666666666,analytic,0.01,0.05,1796
+2,uniform_shared_index_matching,0.16666666666666666,analytic,0.01,0.05,1796
+2,optimal_in_matching_only_class,0.25,analytic restricted optimum,0.01,0.05,1197
+2,LZ_best_tested_MUB_terminal_1,0.49999999999999944,finite-size floating spectrum; uniform basis weights,0.01,0.05,598
+2,LZ_best_tested_CMUB_terminal_1,0.49999999999999944,finite-size floating spectrum; uniform basis weights,0.01,0.05,598
+2,LZ_SMUB_uniform_terminals,0.4442062251179918,finite-size floating spectrum,0.01,0.05,673
+2,LZ_SCMUB_uniform_terminals,0.4442062251179918,finite-size floating spectrum,0.01,0.05,673
+3,adaptive_two_colors,0.5,analytic,0.01,0.05,598
+3,uniform_independent_HT_matching,0.16666666666666666,analytic,0.01,0.05,1796
+3,uniform_shared_index_matching,0.16666666666666666,analytic,0.01,0.05,1796
+3,optimal_in_matching_only_class,0.16666666666666666,analytic restricted optimum,0.01,0.05,1796
+3,LZ_best_tested_MUB_terminal_1,0.1723188492216936,finite-size floating spectrum; uniform basis weights,0.01,0.05,1737
+3,LZ_best_tested_CMUB_terminal_2,0.14644660940672483,finite-size floating spectrum; uniform basis weights,0.01,0.05,2045
+3,LZ_SMUB_uniform_terminals,0.24999999999999956,finite-size floating spectrum,0.01,0.05,1197
+3,LZ_SCMUB_uniform_terminals,0.16666666666666619,finite-size floating spectrum,0.01,0.05,1796
+4,adaptive_two_colors,0.5,analytic,0.01,0.05,598
+4,uniform_independent_HT_matching,0.16666666666666666,analytic,0.01,0.05,1796
+4,uniform_shared_index_matching,0.16666666666666666,analytic,0.01,0.05,1796
+4,optimal_in_matching_only_class,0.16666666666666666,analytic restricted optimum,0.01,0.05,1796
+4,LZ_best_tested_MUB_terminal_2,0.13957151567333215,finite-size floating spectrum; uniform basis weights,0.01,0.05,2145
+4,LZ_best_tested_CMUB_terminal_1,0.0,finite-size floating spectrum; uniform basis weights,0.01,0.05,
+4,LZ_SMUB_uniform_terminals,0.23927559648333463,finite-size floating spectrum,0.01,0.05,1251
+4,LZ_SCMUB_uniform_terminals,0.19652826267129475,finite-size floating spectrum,0.01,0.05,1523
+2,optimal_in_144_CRT_product_Pauli_class,0.2727272727272727,exact rational certificate,0.01,0.05,1097
+3,constructed_CRT_product_Pauli_numeric_primal,0.196940647015155,floating construction; not interval certified,0.01,0.05,1520

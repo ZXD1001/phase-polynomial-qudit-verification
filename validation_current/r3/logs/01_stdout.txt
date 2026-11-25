@@ -1,0 +1,118 @@
+{
+  "patterns": {
+    "status": "EXACT_PASS",
+    "check": "Independent GF2 elimination, run decomposition, local edge/triple pair constraints, and iff color equality",
+    "seconds": 0.24391333397943527,
+    "cases": [
+      {
+        "n": 2,
+        "patterns": 4,
+        "half_equality_patterns": 2,
+        "max_noncolor_rejection": "0",
+        "proved_general_upper_noncolor": "0"
+      },
+      {
+        "n": 3,
+        "patterns": 8,
+        "half_equality_patterns": 2,
+        "max_noncolor_rejection": "1/3",
+        "proved_general_upper_noncolor": "1/3"
+      },
+      {
+        "n": 4,
+        "patterns": 16,
+        "half_equality_patterns": 2,
+        "max_noncolor_rejection": "2/5",
+        "proved_general_upper_noncolor": "2/5"
+      },
+      {
+        "n": 5,
+        "patterns": 32,
+        "half_equality_patterns": 2,
+        "max_noncolor_rejection": "3/7",
+        "proved_general_upper_noncolor": "3/7"
+      },
+      {
+        "n": 6,
+        "patterns": 64,
+        "half_equality_patterns": 2,
+        "max_noncolor_rejection": "4/9",
+        "proved_general_upper_noncolor": "4/9"
+      },
+      {
+        "n": 7,
+        "patterns": 128,
+        "half_equality_patterns": 2,
+        "max_noncolor_rejection": "5/11",
+        "proved_general_upper_noncolor": "5/11"
+      },
+      {
+        "n": 8,
+        "patterns": 256,
+        "half_equality_patterns": 2,
+        "max_noncolor_rejection": "6/13",
+        "proved_general_upper_noncolor": "6/13"
+      },
+      {
+        "n": 9,
+        "patterns": 512,
+        "half_equality_patterns": 2,
+        "max_noncolor_rejection": "7/15",
+        "proved_general_upper_noncolor": "7/15"
+      },
+      {
+        "n": 10,
+        "patterns": 1024,
+        "half_equality_patterns": 2,
+        "max_noncolor_rejection": "8/17",
+        "proved_general_upper_noncolor": "8/17"
+      },
+      {
+        "n": 11,
+        "patterns": 2048,
+        "half_equality_patterns": 2,
+        "max_noncolor_rejection": "9/19",
+        "proved_general_upper_noncolor": "9/19"
+      },
+      {
+        "n": 12,
+        "patterns": 4096,
+        "half_equality_patterns": 2,
+        "max_noncolor_rejection": "10/21",
+        "proved_general_upper_noncolor": "10/21"
+      }
+    ]
+  },
+  "walsh": {
+    "status": "EXACT_PASS",
+    "check": "Direct integer Walsh positive-leaf likelihood-ratio identity",
+    "seconds": 0.04555241600610316,
+    "cases": [
+      {
+        "n": 2,
+        "basis_patterns": 4,
+        "positive_leaf_error_comparisons": 48
+      },
+      {
+        "n": 3,
+        "basis_patterns": 8,
+        "positive_leaf_error_comparisons": 336
+      },
+      {
+        "n": 4,
+        "basis_patterns": 16,
+        "positive_leaf_error_comparisons": 2496
+      },
+      {
+        "n": 5,
+        "basis_patterns": 32,
+        "positive_leaf_error_comparisons": 18048
+      },
+      {
+        "n": 6,
+        "basis_patterns": 64,
+        "positive_leaf_error_comparisons": 132096
+      }
+    ]
+  }
+}

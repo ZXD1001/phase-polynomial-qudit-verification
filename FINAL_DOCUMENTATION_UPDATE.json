@@ -1,0 +1,13 @@
+{
+  "updated_at": "2026-09-30T22:20:21.978023+08:00",
+  "run_receipt": "validation_current/RUN_RECEIPT.json",
+  "change": "Final current-aux equation/page mapping added after successful portable run. No scientific program, input, certificate, assertion or tolerance changed.",
+  "mapping_before": "1dc1192b0e0643cd6ef12f06400e6beef3e86d37f448cbe9ab5ec3ab23363149",
+  "mapping_after": "55dc27f751554a20fda97009bbf06e9fc25134bbfc2cc06d250cbf434ffa65f3",
+  "source_differences_from_run": [
+    "MANUSCRIPT_MAPPING.md",
+    "SHA256SUMS.txt"
+  ],
+  "results_verified": 457,
+  "claim_results_verified": 29
+}

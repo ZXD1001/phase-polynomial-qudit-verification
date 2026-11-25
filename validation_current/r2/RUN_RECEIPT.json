@@ -1,0 +1,176 @@
+{
+  "status": "PASS",
+  "started_utc": "2026-09-30T13:57:06Z",
+  "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+  "platform": "macOS-15.3-arm64-arm-64bit",
+  "source_hashes": {
+    "code/verify_achievable_tradeoff.py": "b9eaed205d0c1626b52a8ff6fd43b4b103428a730f1b67bcb5424ba494d98604",
+    "code/verify_direct_omega6_n4.py": "7630b56bafc74ac910d3e632d23cec32d75121e347b69925c52b2c0b369c58db",
+    "code/verify_native_certificate.py": "b6207abafbd6f011cf098438f2c736ca772dfdadf72decbb461adc4403f58476",
+    "code/character_game.py": "9642070d5259f7a9dce4cc2d09ede101f4b18256c26d46447fbbc54d4161f1a1",
+    "code/verify_structural_identities.py": "219ddbcba175ab51b3f5760eb4bce3322fd77677e5971a69cb826dd53ccfad7b",
+    "code/menu_witness.py": "121e994f532981b228846a903daf967615034da4e7ca8062df4fc34cd66f1458",
+    "code/verify_width_certificate.py": "5bd96d678514cc17a20280a2e999444a93a94e469b09e4185a2521b684c0541c",
+    "inputs/witness_n4_w1.json": "7b453fdc17408199ffe0ae8652468887c8646d3ccef45f14c8d6ece2f36b4498",
+    "inputs/witness_n5_w1.json": "03621f743f78ff598f3f46a0b7863993754e69f318985bc595d11d19bc8f6c1f",
+    "inputs/witness_n6_w2.json": "918f6a52f0c14b1821a3a5e5531acef2fba8cced9a784747294e8426146dc236",
+    "inputs/witness_n6_w1_companion.json": "c4e22b12bee68ff7c22b59fdce0f25792411b54d65570c4475efa7549d05cf97",
+    "prior_checks/exact_certificate.py": "d7a1f8957e5c4fa8431a847adec1baea44893360c2c32d206c9e19853c3aed3a",
+    "prior_checks/certify_fullmenu_half.py": "47f7d872719c9e03e56627cbe4ced168ac99e20f4ffbaa87dc3cb34b48f8c7d6",
+    "prior_checks/lz_fullmenu_exact_half_certificate.json": "06fc0690416980d3f37fbd5f22304e5b6878c23e22c51d8e3f014b084c9c0fe7"
+  },
+  "steps": [
+    {
+      "command": [
+        "code/verify_width_certificate.py",
+        "inputs/witness_n4_w1.json",
+        "--native"
+      ],
+      "exit_code": 0,
+      "seconds": 0.8046088218688965,
+      "log": "logs/01.log"
+    },
+    {
+      "command": [
+        "code/verify_width_certificate.py",
+        "inputs/witness_n5_w1.json",
+        "--native"
+      ],
+      "exit_code": 0,
+      "seconds": 1.3768398761749268,
+      "log": "logs/02.log"
+    },
+    {
+      "command": [
+        "code/verify_width_certificate.py",
+        "inputs/witness_n6_w2.json",
+        "--native"
+      ],
+      "exit_code": 0,
+      "seconds": 17.36836004257202,
+      "log": "logs/03.log"
+    },
+    {
+      "command": [
+        "code/verify_width_certificate.py",
+        "inputs/witness_n6_w1_companion.json",
+        "--native"
+      ],
+      "exit_code": 0,
+      "seconds": 9.927842140197754,
+      "log": "logs/04.log"
+    },
+    {
+      "command": [
+        "code/verify_width_certificate.py",
+        "inputs/witness_n4_w1.json"
+      ],
+      "exit_code": 0,
+      "seconds": 0.8626208305358887,
+      "log": "logs/05.log"
+    },
+    {
+      "command": [
+        "code/verify_width_certificate.py",
+        "inputs/witness_n5_w1.json"
+      ],
+      "exit_code": 0,
+      "seconds": 1.128338098526001,
+      "log": "logs/06.log"
+    },
+    {
+      "command": [
+        "code/verify_width_certificate.py",
+        "inputs/witness_n6_w2.json"
+      ],
+      "exit_code": 0,
+      "seconds": 3.9581499099731445,
+      "log": "logs/07.log"
+    },
+    {
+      "command": [
+        "code/verify_width_certificate.py",
+        "inputs/witness_n6_w1_companion.json"
+      ],
+      "exit_code": 0,
+      "seconds": 3.785205125808716,
+      "log": "logs/08.log"
+    },
+    {
+      "command": [
+        "code/verify_direct_omega6_n4.py"
+      ],
+      "exit_code": 0,
+      "seconds": 0.43958187103271484,
+      "log": "logs/09.log"
+    },
+    {
+      "command": [
+        "code/verify_achievable_tradeoff.py"
+      ],
+      "exit_code": 0,
+      "seconds": 2.1293251514434814,
+      "log": "logs/10.log"
+    },
+    {
+      "command": [
+        "code/verify_structural_identities.py"
+      ],
+      "exit_code": 0,
+      "seconds": 1.2550828456878662,
+      "log": "logs/11.log"
+    },
+    {
+      "command": [
+        "prior_checks/exact_certificate.py"
+      ],
+      "exit_code": 0,
+      "seconds": 1.2688701152801514,
+      "log": "logs/12.log"
+    },
+    {
+      "command": [
+        "prior_checks/certify_fullmenu_half.py",
+        "--verify-only"
+      ],
+      "exit_code": 0,
+      "seconds": 0.6824402809143066,
+      "log": "logs/13.log"
+    }
+  ],
+  "scope": "Round-2 exact finite certificates, analytic-construction checks and two round-1 exact certificate reruns; NOT the original authors complete software.",
+  "crosschecks": [
+    {
+      "case": "witness_n4_w1",
+      "expected_exact_upper": "29/70",
+      "all_template_values_identical": true,
+      "templates": 256
+    },
+    {
+      "case": "witness_n5_w1",
+      "expected_exact_upper": "26915/68048",
+      "all_template_values_identical": true,
+      "templates": 1280
+    },
+    {
+      "case": "witness_n6_w2",
+      "expected_exact_upper": "10049/22500",
+      "all_template_values_identical": true,
+      "templates": 3840
+    },
+    {
+      "case": "witness_n6_w1_companion",
+      "expected_exact_upper": "1319/3000",
+      "all_template_values_identical": true,
+      "templates": 6144
+    }
+  ],
+  "at_most_width_coverage": {
+    "n4_width1": "all size1; size0 embeds",
+    "n5_width1": "all size1; size0 embeds",
+    "n6_width2": "all size1 and size2 checked separately; size0 embeds",
+    "n6_combined_upper": "10049/22500"
+  },
+  "source_inputs_preserved": true,
+  "finished_utc": "2026-09-30T13:57:51Z"
+}

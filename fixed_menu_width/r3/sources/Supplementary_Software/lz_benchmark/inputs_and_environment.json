@@ -1,0 +1,19 @@
+{
+  "source": "Li--Zhu Quantum 10, 2011 (2026), Secs.4.1--4.3, Eqs.(30)--(31); App.D.1",
+  "family": "psi(x)=6^(-n/2)*exp(2*pi*i*sum_{v=0}^{n-2}(2*x_v^2+3*x_v)*x_{v+1}/6)",
+  "phase_orientation": "left endpoint is the quadratic variable on every path edge",
+  "basis": "Z=computational; X basis column o has entries exp(+2*pi*i*x*o/6)/sqrt(6)",
+  "zero_probability_branches": "exact cyclotomic integer support; impossible target branches always reject",
+  "probability_optimization": false,
+  "basis_order": "C order, last local index fastest; front sites increasing, terminal moved last for conditional arrays",
+  "numerical_precision": "numpy complex128/float64; exact int64 support/probability numerators",
+  "n_values": [
+    2,
+    3,
+    4
+  ],
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "script_sha256": "1f0930b14a7d330b43644779265a82e7826613184e56db415db63787c6d1f514",
+  "limitations": "Small-n operator audit; no asymptotic conclusion and no assumption that dense state storage is needed online. Not an implementation of SD/CSD, 3MUB, or optimized variants."
+}

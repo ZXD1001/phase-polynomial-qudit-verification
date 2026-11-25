@@ -1,0 +1,230 @@
+{
+  "status": "ANALYTIC_FAMILY_CERTIFICATE_INPUT",
+  "n": 5,
+  "adaptive_width": 2,
+  "menu": "Z,B0,B1,B2",
+  "class": "at most r preselected second-layer sites; arbitrary front product menu; arbitrary full-transcript-dependent parallel second-layer product menu; strongest perfectly complete all-outcome support acceptance",
+  "claim_upper": "1/2",
+  "achievable_lower": "1/2",
+  "minimum_width_for_half": 2,
+  "m": [
+    2,
+    2
+  ],
+  "q": [
+    "1",
+    "1"
+  ],
+  "qutrit_color_weights": [
+    "1/2",
+    "1/2"
+  ],
+  "graph_noncolor_penalty": "1/14",
+  "terms": [
+    {
+      "qubit_character": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "qutrit_character": [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "weight": "1/60"
+    },
+    {
+      "qubit_character": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "qutrit_character": [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "weight": "1/60"
+    },
+    {
+      "qubit_character": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "qutrit_character": [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "weight": "1/60"
+    },
+    {
+      "qubit_character": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "qutrit_character": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "weight": "1/60"
+    },
+    {
+      "qubit_character": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "qutrit_character": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "weight": "1/15"
+    },
+    {
+      "qubit_character": [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "qutrit_character": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "weight": "1/5"
+    },
+    {
+      "qubit_character": [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "qutrit_character": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "weight": "1/5"
+    },
+    {
+      "qubit_character": [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "qutrit_character": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "weight": "1/15"
+    },
+    {
+      "qubit_character": [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "qutrit_character": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "weight": "1/5"
+    },
+    {
+      "qubit_character": [
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "qutrit_character": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "weight": "1/15"
+    },
+    {
+      "qubit_character": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "qutrit_character": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "weight": "1/15"
+    },
+    {
+      "qubit_character": [
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      "qutrit_character": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "weight": "1/15"
+    }
+  ],
+  "evidence": "The infinite family follows from the analytic lemmas in REPORT.md; finite tests are independent implementation checks, not the proof."
+}

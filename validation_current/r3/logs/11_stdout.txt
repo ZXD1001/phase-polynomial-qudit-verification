@@ -1,0 +1,15 @@
+[1/6] original_reproduction/reproduce.py
+[2/6] lz_benchmark/benchmark_lz.py
+[3/6] lz_benchmark/verify_exports.py
+[4/6] structured_benchmark/run_benchmark.py
+[5/6] resources/verify_resource_model.py
+[6/6] summarize_results.py
+PASS: all calculations reproduced in ${RUN_ROOT}/r3/author_rerun
+{
+  "status": "PASS",
+  "manifest_entries": 48,
+  "all_source_manifest_entries_unchanged": true,
+  "author_six_stage_rerun_passed": true,
+  "author_run_report": "author_rerun/run_report.json",
+  "seconds": 46.34835725004086
+}

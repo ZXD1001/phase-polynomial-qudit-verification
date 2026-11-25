@@ -1,0 +1,1 @@
+PASS: generated exact-size-one companion; not a width-one achievable-gap claim.

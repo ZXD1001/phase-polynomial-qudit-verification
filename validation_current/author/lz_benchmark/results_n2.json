@@ -1,0 +1,157 @@
+{
+  "n": 2,
+  "d": 6,
+  "hilbert_dimension": 36,
+  "target_norm_squared": 0.9999999999999998,
+  "tests": [
+    {
+      "label": "t0_m0",
+      "terminal_zero_based": 0,
+      "front_sites_zero_based": [
+        1
+      ],
+      "mask": [
+        0
+      ],
+      "nonzero_branch_count": 6,
+      "zero_branch_count": 0,
+      "branch_probability_denominator": 36,
+      "target_acceptance": 1.0000000000000002,
+      "target_eigenvector_residual_2": 3.4614724798510155e-16,
+      "accepted_columns_orthonormality_residual_frobenius": 7.021666937153402e-16,
+      "minimum_nonzero_branch_probability": 0.16666666666666666
+    },
+    {
+      "label": "t0_m1",
+      "terminal_zero_based": 0,
+      "front_sites_zero_based": [
+        1
+      ],
+      "mask": [
+        1
+      ],
+      "nonzero_branch_count": 4,
+      "zero_branch_count": 2,
+      "branch_probability_denominator": 216,
+      "target_acceptance": 1.0000000000000009,
+      "target_eigenvector_residual_2": 1.2549138720803156e-15,
+      "accepted_columns_orthonormality_residual_frobenius": 1.5857156540161844e-15,
+      "minimum_nonzero_branch_probability": 0.16666666666666666
+    },
+    {
+      "label": "t1_m0",
+      "terminal_zero_based": 1,
+      "front_sites_zero_based": [
+        0
+      ],
+      "mask": [
+        0
+      ],
+      "nonzero_branch_count": 6,
+      "zero_branch_count": 0,
+      "branch_probability_denominator": 36,
+      "target_acceptance": 1.0,
+      "target_eigenvector_residual_2": 3.0082117163562194e-16,
+      "accepted_columns_orthonormality_residual_frobenius": 5.438959822042073e-16,
+      "minimum_nonzero_branch_probability": 0.16666666666666666
+    },
+    {
+      "label": "t1_m1",
+      "terminal_zero_based": 1,
+      "front_sites_zero_based": [
+        0
+      ],
+      "mask": [
+        1
+      ],
+      "nonzero_branch_count": 6,
+      "zero_branch_count": 0,
+      "branch_probability_denominator": 216,
+      "target_acceptance": 1.0000000000000004,
+      "target_eigenvector_residual_2": 1.0014699676665278e-15,
+      "accepted_columns_orthonormality_residual_frobenius": 2.197783390198207e-15,
+      "minimum_nonzero_branch_probability": 0.1111111111111111
+    }
+  ],
+  "protocols": {
+    "MUB_terminal_1": {
+      "spectral_gap_raw": 0.49999999999999944,
+      "spectral_gap_clipped": 0.49999999999999944,
+      "second_eigenvalue": 0.5000000000000006,
+      "largest_eigenvalue": 1.0000000000000002,
+      "smallest_eigenvalue": -7.219479767587854e-16,
+      "eigenvalue_one_multiplicity_at_1e_minus_10": 1,
+      "target_acceptance": 1.0000000000000004,
+      "target_eigenvector_residual_2": 7.010719194508626e-16,
+      "hermiticity_residual_frobenius": 4.1915126712294654e-17,
+      "test_template_count": 2,
+      "weights": "uniform over masks"
+    },
+    "CMUB_terminal_1": {
+      "spectral_gap_raw": 0.49999999999999944,
+      "spectral_gap_clipped": 0.49999999999999944,
+      "second_eigenvalue": 0.5000000000000006,
+      "largest_eigenvalue": 1.0000000000000002,
+      "smallest_eigenvalue": -7.219479767587854e-16,
+      "eigenvalue_one_multiplicity_at_1e_minus_10": 1,
+      "target_acceptance": 1.0000000000000004,
+      "target_eigenvector_residual_2": 7.010719194508626e-16,
+      "hermiticity_residual_frobenius": 4.1915126712294654e-17,
+      "test_template_count": 2,
+      "weights": "uniform over masks"
+    },
+    "MUB_terminal_2": {
+      "spectral_gap_raw": 0.1464466094067256,
+      "spectral_gap_clipped": 0.1464466094067256,
+      "second_eigenvalue": 0.8535533905932744,
+      "largest_eigenvalue": 1.0000000000000004,
+      "smallest_eigenvalue": -6.854553183665609e-16,
+      "eigenvalue_one_multiplicity_at_1e_minus_10": 1,
+      "target_acceptance": 1.0000000000000004,
+      "target_eigenvector_residual_2": 6.0215355509477e-16,
+      "hermiticity_residual_frobenius": 8.26049961130988e-17,
+      "test_template_count": 2,
+      "weights": "uniform over masks"
+    },
+    "CMUB_terminal_2": {
+      "spectral_gap_raw": 0.1464466094067256,
+      "spectral_gap_clipped": 0.1464466094067256,
+      "second_eigenvalue": 0.8535533905932744,
+      "largest_eigenvalue": 1.0000000000000004,
+      "smallest_eigenvalue": -6.854553183665609e-16,
+      "eigenvalue_one_multiplicity_at_1e_minus_10": 1,
+      "target_acceptance": 1.0000000000000004,
+      "target_eigenvector_residual_2": 6.0215355509477e-16,
+      "hermiticity_residual_frobenius": 8.26049961130988e-17,
+      "test_template_count": 2,
+      "weights": "uniform over masks"
+    },
+    "SMUB_uniform_terminals": {
+      "spectral_gap_raw": 0.4442062251179918,
+      "spectral_gap_clipped": 0.4442062251179918,
+      "second_eigenvalue": 0.5557937748820082,
+      "largest_eigenvalue": 1.000000000000001,
+      "smallest_eigenvalue": -2.667537700242639e-16,
+      "eigenvalue_one_multiplicity_at_1e_minus_10": 1,
+      "target_acceptance": 1.0000000000000004,
+      "target_eigenvector_residual_2": 5.63936742059554e-16,
+      "hermiticity_residual_frobenius": 5.722089846031287e-17,
+      "test_template_count": 4,
+      "weights": "uniform over terminals and masks"
+    },
+    "SCMUB_uniform_terminals": {
+      "spectral_gap_raw": 0.4442062251179918,
+      "spectral_gap_clipped": 0.4442062251179918,
+      "second_eigenvalue": 0.5557937748820082,
+      "largest_eigenvalue": 1.000000000000001,
+      "smallest_eigenvalue": -2.667537700242639e-16,
+      "eigenvalue_one_multiplicity_at_1e_minus_10": 1,
+      "target_acceptance": 1.0000000000000004,
+      "target_eigenvector_residual_2": 5.63936742059554e-16,
+      "hermiticity_residual_frobenius": 5.722089846031287e-17,
+      "test_template_count": 4,
+      "weights": "uniform over terminals and masks"
+    }
+  },
+  "elapsed_seconds": 0.007025415950920433
+}

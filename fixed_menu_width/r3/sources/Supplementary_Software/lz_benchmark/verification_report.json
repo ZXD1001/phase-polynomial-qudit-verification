@@ -1,0 +1,33 @@
+{
+  "2": {
+    "maximum_conditional_amplitude_absolute_error": 6.29137809273972e-16,
+    "maximum_branch_probability_absolute_error": 2.7755575615628914e-16,
+    "maximum_exact_zero_branch_floating_norm": 4.923650457053496e-16,
+    "maximum_Q_target_residual_2": 1.2549138720803156e-15,
+    "maximum_Q_isometry_gram_residual_frobenius": 2.197783390198207e-15,
+    "maximum_Omega_target_residual_2": 7.010719194508626e-16,
+    "maximum_unit_eigenvalue_error": 1.1102230246251565e-15,
+    "minimum_Omega_eigenvalue": -7.219479767587854e-16
+  },
+  "3": {
+    "maximum_conditional_amplitude_absolute_error": 8.923972451726578e-16,
+    "maximum_branch_probability_absolute_error": 3.3306690738754696e-16,
+    "maximum_exact_zero_branch_floating_norm": 4.153151141129755e-16,
+    "maximum_Q_target_residual_2": 1.9203212624861474e-15,
+    "maximum_Q_isometry_gram_residual_frobenius": 1.156510147539416e-14,
+    "maximum_Omega_target_residual_2": 1.0578956643747051e-15,
+    "maximum_unit_eigenvalue_error": 1.6653345369377348e-15,
+    "minimum_Omega_eigenvalue": -7.236775846460834e-16
+  },
+  "4": {
+    "maximum_conditional_amplitude_absolute_error": 6.09675716481095e-16,
+    "maximum_branch_probability_absolute_error": 1.249000902703301e-16,
+    "maximum_exact_zero_branch_floating_norm": 2.813002488769855e-16,
+    "maximum_Q_target_residual_2": 2.565694031811295e-15,
+    "maximum_Q_isometry_gram_residual_frobenius": 6.720455320067973e-14,
+    "maximum_Omega_target_residual_2": 1.3873900968428249e-15,
+    "maximum_unit_eigenvalue_error": 4.884981308350689e-15,
+    "minimum_Omega_eigenvalue": -1.172718909454995e-15
+  },
+  "status": "PASS"
+}

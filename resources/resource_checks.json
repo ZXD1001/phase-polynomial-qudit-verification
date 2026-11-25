@@ -1,0 +1,89 @@
+{
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "model": "ideal continuous two-level SU(2) gates and diagonal phases",
+  "cross_checks": [
+    {
+      "n": 2,
+      "branches_checked": 24,
+      "integer_coefficients_and_probabilities": "exactly equal",
+      "max_normalized_vector_error": 0.0
+    },
+    {
+      "n": 3,
+      "branches_checked": 432,
+      "integer_coefficients_and_probabilities": "exactly equal",
+      "max_normalized_vector_error": 0.0
+    },
+    {
+      "n": 4,
+      "branches_checked": 6912,
+      "integer_coefficients_and_probabilities": "exactly equal",
+      "max_normalized_vector_error": 0.0
+    }
+  ],
+  "large_n_transfer": [
+    {
+      "n": 20,
+      "ring_multiplications": 1374,
+      "max_coefficient_bits": 26,
+      "nonzero_branch": true,
+      "normalization_error": 2.220446049250313e-16,
+      "ray_SU2_gate_count": 0,
+      "ray_projector_error_2": 2.220446049250313e-16,
+      "seconds_in_this_environment": 0.0002839170047082007
+    },
+    {
+      "n": 100,
+      "ring_multiplications": 7134,
+      "max_coefficient_bits": 130,
+      "nonzero_branch": true,
+      "normalization_error": 0.0,
+      "ray_SU2_gate_count": 0,
+      "ray_projector_error_2": 0.0,
+      "seconds_in_this_environment": 0.0014104589936323464
+    },
+    {
+      "n": 500,
+      "ring_multiplications": 35934,
+      "max_coefficient_bits": 647,
+      "nonzero_branch": true,
+      "normalization_error": 0.0,
+      "ray_SU2_gate_count": 0,
+      "ray_projector_error_2": 0.0,
+      "seconds_in_this_environment": 0.007544499996583909
+    }
+  ],
+  "conditional_rank_one_measurement": {
+    "max_SU2_gates_observed": 5,
+    "general_bound": 5,
+    "max_projector_error_2": 9.477537698943733e-16
+  },
+  "three_fixed_adaptive_bases": [
+    {
+      "t": 0,
+      "SU2_gate_count": 15,
+      "unitary_reconstruction_error_2": 1.3446515082416101e-15,
+      "CRT_basis_error_2": 3.2115238235648426e-15,
+      "binary_ray_max_SU2_gate_count": 5,
+      "binary_ray_max_projector_error_2": 1.2971403470316562e-15
+    },
+    {
+      "t": 1,
+      "SU2_gate_count": 15,
+      "unitary_reconstruction_error_2": 2.332498927731637e-15,
+      "CRT_basis_error_2": 5.0371081684708806e-15,
+      "binary_ray_max_SU2_gate_count": 5,
+      "binary_ray_max_projector_error_2": 2.496409512586148e-15
+    },
+    {
+      "t": 2,
+      "SU2_gate_count": 15,
+      "unitary_reconstruction_error_2": 2.990062884376508e-15,
+      "CRT_basis_error_2": 7.784058621041589e-15,
+      "binary_ray_max_SU2_gate_count": 5,
+      "binary_ray_max_projector_error_2": 2.491924040743857e-15
+    }
+  ],
+  "all_checks_passed": true
+}

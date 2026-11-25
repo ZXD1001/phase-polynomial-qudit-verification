@@ -1,0 +1,52 @@
+{
+  "n": 4,
+  "exact_unique_qutrit_terminal_rays": 29,
+  "non_Pauli_rays": 20,
+  "per_site_unique_qutrit_rays": [
+    5,
+    22,
+    24,
+    6
+  ],
+  "unique_native_six_level_rays": 64,
+  "native_rays_by_terminal": [
+    10,
+    44,
+    48,
+    12
+  ],
+  "complete_PVM_library_lower_bound_by_terminal": [
+    2,
+    8,
+    8,
+    2
+  ],
+  "example_non_Pauli_ray": {
+    "terminal": 0,
+    "front_string": [
+      1,
+      0,
+      1
+    ],
+    "qutrit_outcomes": [
+      1,
+      0,
+      0
+    ],
+    "qutrit_conditional_coefficients": [
+      [
+        0,
+        0
+      ],
+      [
+        9,
+        0
+      ],
+      [
+        9,
+        0
+      ]
+    ]
+  },
+  "interpretation": "Count of qutrit-factor rays over nonzero branches, Per-terminal PVM lower bounds apply only to exact realization of the specified certificate rank-one rays using complete six-level PVMs and classical coarse graining; not all equivalent protocols."
+}

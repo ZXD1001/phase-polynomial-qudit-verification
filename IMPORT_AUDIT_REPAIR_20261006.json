@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-06",
+  "issue": "AUD-09: an empty import-observation directory could previously yield PASS.",
+  "change": "Explicit registered subprocess launcher and observer; complete launch/completion and fixed-topology checks; scientific and provenance status reported separately.",
+  "changed_or_added_files_before_this_record": [
+    "README.md",
+    "portability/import_audit.py",
+    "portability/observed_python.py",
+    "portability/test_import_audit.py",
+    "run_revision_checks.py"
+  ],
+  "expected_python_processes": {
+    "roots": 11,
+    "descendants": 60,
+    "total": 71
+  },
+  "unchanged": "Scientific algorithms, source snapshots, numerical tolerances, certificate inputs and all existing validation_current bytes.",
+  "previous_receipt": "validation_current/RUN_RECEIPT.json",
+  "previous_receipt_identity": "Historical 2026-09-30 execution, not regenerated or relabelled.",
+  "fresh_run": "A new destination supplied to run_revision_checks.py; do not infer execution merely from this repair record.",
+  "regression_command": "python3 portability/test_import_audit.py",
+  "regression_cases": 10,
+  "test_evidence": "Normal child/grandchild, empty directory, absent observer/bypassed launch, one missing completion, missing whole child registration, extra completion, empty module snapshots, conflicting preloaded sitecustomize, unexpected external sitecustomize, abrupt exit."
+}

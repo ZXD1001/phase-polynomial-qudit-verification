@@ -1,0 +1,12 @@
+[1/11] code/verify_graph_lemmas.py --max-n 12 --walsh-max-n 6 --output results/graph_lemmas.json
+[2/11] code/verify_local_and_parameters.py --output results/local_and_parameters.json --inputs inputs
+[3/11] code/make_companion.py --inputs inputs
+[4/11] code/verify_odd_prime_extension.py --output results/odd_prime_extension.json
+[5/11] code/verify_odd_modulus_extension.py --output results/odd_modulus_extension.json
+[6/11] code/verify_width_certificate.py inputs/family_n4_w1.json --native
+[7/11] code/verify_width_certificate.py inputs/family_n5_w1.json --native
+[8/11] code/verify_width_certificate.py inputs/family_n6_w1_companion.json --native
+[9/11] code/verify_width_certificate.py inputs/family_n6_w2.json --native
+[10/11] code/verify_family_direct_omega6.py
+[11/11] code/audit_author.py --source sources/Supplementary_Software --destination author_rerun --output results/author_audit.json
+PASS: 11 stages (including the author six-stage pipeline); 82.16s

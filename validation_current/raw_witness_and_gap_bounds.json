@@ -1,0 +1,119 @@
+[
+  {
+    "n": 3,
+    "exact_second_layer_size": 0,
+    "raw_maximum_rejection": "2/5",
+    "gap_upper_after_menu_half_cap": "2/5",
+    "input_sha256": "95bd8f3efb723cccd2b89e155866d3c0b98eef0105919ff54393e4a127b4145b",
+    "result": "r4/results/robust_n3_w0_native_verified.json",
+    "coverage": "exact second-layer size only; at-most bounds require all smaller sizes or a separately proved class inclusion"
+  },
+  {
+    "n": 3,
+    "exact_second_layer_size": 1,
+    "raw_maximum_rejection": "1/2",
+    "gap_upper_after_menu_half_cap": "1/2",
+    "input_sha256": "4439c0b00b1ab7bee18ea35a19d0e489f28e911a83cbb246fbf7b71a1deb756c",
+    "result": "r4/results/robust_n3_w1_native_verified.json",
+    "coverage": "exact second-layer size only; at-most bounds require all smaller sizes or a separately proved class inclusion"
+  },
+  {
+    "n": 3,
+    "exact_second_layer_size": 2,
+    "raw_maximum_rejection": "1/2",
+    "gap_upper_after_menu_half_cap": "1/2",
+    "input_sha256": "293ab156e6f59535d03de4ee2f824f6f05e8aff9e11d265a3606b19fc6724609",
+    "result": "r4/results/robust_n3_w2_native_verified.json",
+    "coverage": "exact second-layer size only; at-most bounds require all smaller sizes or a separately proved class inclusion"
+  },
+  {
+    "n": 4,
+    "exact_second_layer_size": 0,
+    "raw_maximum_rejection": "8/19",
+    "gap_upper_after_menu_half_cap": "8/19",
+    "input_sha256": "f3ab665bd043a49d8a23d1983493530432572190cb99cda4d154976110063e45",
+    "result": "r4/results/robust_n4_w0_native_verified.json",
+    "coverage": "exact second-layer size only; at-most bounds require all smaller sizes or a separately proved class inclusion"
+  },
+  {
+    "n": 4,
+    "exact_second_layer_size": 1,
+    "raw_maximum_rejection": "9/19",
+    "gap_upper_after_menu_half_cap": "9/19",
+    "input_sha256": "c26a81c06e61003606328bc85181a2a2a2a04447da325326ce7b427db88eeb26",
+    "result": "r4/results/robust_n4_w1_native_verified.json",
+    "coverage": "exact second-layer size only; at-most bounds require all smaller sizes or a separately proved class inclusion"
+  },
+  {
+    "n": 4,
+    "exact_second_layer_size": 2,
+    "raw_maximum_rejection": "10/19",
+    "gap_upper_after_menu_half_cap": "1/2",
+    "input_sha256": "08df7c512af33f9995103cd4be064d947e7b0ae7a17ea143ac916784172bc39e",
+    "result": "r4/results/robust_n4_w2_native_verified.json",
+    "coverage": "exact second-layer size only; at-most bounds require all smaller sizes or a separately proved class inclusion"
+  },
+  {
+    "n": 4,
+    "exact_second_layer_size": 3,
+    "raw_maximum_rejection": "9/19",
+    "gap_upper_after_menu_half_cap": "9/19",
+    "input_sha256": "72a1715e2ae62ca6fb2873dcc5d575c039f153358e5bafbae6482ca1ccbf4fc2",
+    "result": "r4/results/robust_n4_w3_native_verified.json",
+    "coverage": "exact second-layer size only; at-most bounds require all smaller sizes or a separately proved class inclusion"
+  },
+  {
+    "n": 5,
+    "exact_second_layer_size": 0,
+    "raw_maximum_rejection": "23/54",
+    "gap_upper_after_menu_half_cap": "23/54",
+    "input_sha256": "c077d8683c82672704b422f328de77ad6d3bc1b5855de246edcd25adeb999120",
+    "result": "r4/results/robust_n5_w0_native_verified.json",
+    "coverage": "exact second-layer size only; at-most bounds require all smaller sizes or a separately proved class inclusion"
+  },
+  {
+    "n": 5,
+    "exact_second_layer_size": 1,
+    "raw_maximum_rejection": "25/54",
+    "gap_upper_after_menu_half_cap": "25/54",
+    "input_sha256": "8f363f1066fe9dc5dcb423cc75be34fb07c5d3dff64f6fb3a615a58e1667dfe3",
+    "result": "r4/results/robust_n5_w1_native_verified.json",
+    "coverage": "exact second-layer size only; at-most bounds require all smaller sizes or a separately proved class inclusion"
+  },
+  {
+    "n": 5,
+    "exact_second_layer_size": 2,
+    "raw_maximum_rejection": "1/2",
+    "gap_upper_after_menu_half_cap": "1/2",
+    "input_sha256": "4727f19cd0b5579c3eff3c94858d56c7c25e51889ce492bffbf4ea525c979f74",
+    "result": "r4/results/robust_n5_w2_native_verified.json",
+    "coverage": "exact second-layer size only; at-most bounds require all smaller sizes or a separately proved class inclusion"
+  },
+  {
+    "n": 6,
+    "exact_second_layer_size": 1,
+    "raw_maximum_rejection": "11/24",
+    "gap_upper_after_menu_half_cap": "11/24",
+    "input_sha256": "6e9fc3340db51eb9bf4f70fb2aabf53c5d6c0880fc75900640588a1bd09a540d",
+    "result": "r4/results/robust_n6_w1_native_verified.json",
+    "coverage": "exact second-layer size only; at-most bounds require all smaller sizes or a separately proved class inclusion"
+  },
+  {
+    "n": 6,
+    "exact_second_layer_size": 2,
+    "raw_maximum_rejection": "35/72",
+    "gap_upper_after_menu_half_cap": "35/72",
+    "input_sha256": "8d3fdcda264d15740e0814db0968a5f2bd80438a0fc8ac567af431782c7d6aea",
+    "result": "r4/results/robust_n6_w2_native_verified.json",
+    "coverage": "exact second-layer size only; at-most bounds require all smaller sizes or a separately proved class inclusion"
+  },
+  {
+    "n": 6,
+    "exact_second_layer_size": 3,
+    "raw_maximum_rejection": "37/72",
+    "gap_upper_after_menu_half_cap": "1/2",
+    "input_sha256": "ec5cf954e100751279c0ed73a12c1989ed10777cfff28edf036a6e01909a4cd9",
+    "result": "r4/results/robust_n6_w3_native_verified.json",
+    "coverage": "exact second-layer size only; at-most bounds require all smaller sizes or a separately proved class inclusion"
+  }
+]

@@ -1,0 +1,90 @@
+{
+  "status": "EXACT_PASS",
+  "n": 3,
+  "adaptive_width": 1,
+  "claim_upper": "1/2",
+  "actual_maximum_rejection": "1/2",
+  "decimal_display": 0.5,
+  "native_exhaustive": true,
+  "enumerated_exact_second_layer_size": 1,
+  "at_most_width_note": "Combine every positive size up to requested width; nonadaptive size zero embeds in size one.",
+  "templates": 48,
+  "front_records_per_template": 36,
+  "second_layer_choices_per_record": 4,
+  "full_basis_patterns": 64,
+  "witness_terms": 4,
+  "common_denominator": 933120,
+  "seconds": 0.014082193374633789,
+  "input_sha256": "4439c0b00b1ab7bee18ea35a19d0e489f28e911a83cbb246fbf7b71a1deb756c",
+  "per_subset": [
+    {
+      "second_layer_sites": [
+        0
+      ],
+      "maximum_rejection": "1/2"
+    },
+    {
+      "second_layer_sites": [
+        1
+      ],
+      "maximum_rejection": "1/2"
+    },
+    {
+      "second_layer_sites": [
+        2
+      ],
+      "maximum_rejection": "2/5"
+    }
+  ],
+  "per_template_maximum_numerators": [
+    466560,
+    466560,
+    466560,
+    466560,
+    373248,
+    124416,
+    202176,
+    202176,
+    373248,
+    124416,
+    202176,
+    202176,
+    373248,
+    124416,
+    202176,
+    202176,
+    466560,
+    326592,
+    326592,
+    326592,
+    373248,
+    373248,
+    373248,
+    373248,
+    373248,
+    373248,
+    373248,
+    373248,
+    373248,
+    373248,
+    373248,
+    373248,
+    326592,
+    373248,
+    373248,
+    373248,
+    373248,
+    145152,
+    145152,
+    145152,
+    373248,
+    82944,
+    82944,
+    82944,
+    373248,
+    82944,
+    82944,
+    82944
+  ],
+  "arithmetic": "Integer cyclotomic transforms and squared norms; exact support; max and sum over all branches; no eigenvalue or floating feasibility check."
+}

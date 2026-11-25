@@ -1,0 +1,162 @@
+{
+  "status": "EXACT_PASS",
+  "n": 4,
+  "adaptive_width": 2,
+  "claim_upper": "10/19",
+  "actual_maximum_rejection": "10/19",
+  "decimal_display": 0.5263157894736842,
+  "native_exhaustive": true,
+  "enumerated_exact_second_layer_size": 2,
+  "at_most_width_note": "Combine every positive size up to requested width; nonadaptive size zero embeds in size one.",
+  "templates": 96,
+  "front_records_per_template": 36,
+  "second_layer_choices_per_record": 16,
+  "full_basis_patterns": 256,
+  "witness_terms": 8,
+  "common_denominator": 63825408,
+  "seconds": 0.08981204032897949,
+  "input_sha256": "08df7c512af33f9995103cd4be064d947e7b0ae7a17ea143ac916784172bc39e",
+  "per_subset": [
+    {
+      "second_layer_sites": [
+        0,
+        1
+      ],
+      "maximum_rejection": "9/19"
+    },
+    {
+      "second_layer_sites": [
+        0,
+        2
+      ],
+      "maximum_rejection": "10/19"
+    },
+    {
+      "second_layer_sites": [
+        0,
+        3
+      ],
+      "maximum_rejection": "9/19"
+    },
+    {
+      "second_layer_sites": [
+        1,
+        2
+      ],
+      "maximum_rejection": "9/19"
+    },
+    {
+      "second_layer_sites": [
+        1,
+        3
+      ],
+      "maximum_rejection": "9/19"
+    },
+    {
+      "second_layer_sites": [
+        2,
+        3
+      ],
+      "maximum_rejection": "8/19"
+    }
+  ],
+  "per_template_maximum_numerators": [
+    28553472,
+    30233088,
+    30233088,
+    30233088,
+    27433728,
+    18102528,
+    21275136,
+    21275136,
+    27433728,
+    18102528,
+    21275136,
+    21275136,
+    27433728,
+    18102528,
+    21275136,
+    21275136,
+    33592320,
+    30233088,
+    30233088,
+    30233088,
+    25194240,
+    26873856,
+    26873856,
+    26873856,
+    25194240,
+    26873856,
+    26873856,
+    26873856,
+    25194240,
+    26873856,
+    26873856,
+    26873856,
+    30233088,
+    30233088,
+    30233088,
+    30233088,
+    26873856,
+    19844352,
+    19844352,
+    19844352,
+    26873856,
+    19844352,
+    19844352,
+    19844352,
+    26873856,
+    19844352,
+    19844352,
+    19844352,
+    28553472,
+    28553472,
+    26873856,
+    26873856,
+    30233088,
+    26873856,
+    26873856,
+    26873856,
+    30233088,
+    26873856,
+    26873856,
+    26873856,
+    30233088,
+    26873856,
+    26873856,
+    26873856,
+    30233088,
+    25194240,
+    25194240,
+    25194240,
+    26873856,
+    26873856,
+    26873856,
+    26873856,
+    26873856,
+    26873856,
+    26873856,
+    26873856,
+    26873856,
+    26873856,
+    26873856,
+    26873856,
+    25194240,
+    26873856,
+    26873856,
+    26873856,
+    26873856,
+    17169408,
+    17169408,
+    17169408,
+    26873856,
+    16422912,
+    16422912,
+    16422912,
+    26873856,
+    16422912,
+    16422912,
+    16422912
+  ],
+  "arithmetic": "Integer cyclotomic transforms and squared norms; exact support; max and sum over all branches; no eigenvalue or floating feasibility check."
+}

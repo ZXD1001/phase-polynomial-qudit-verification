@@ -1,0 +1,209 @@
+{
+  "claims": [
+    {
+      "claim_id": "R1-03",
+      "evidence_type": "NUMERIC_PLUS_ANALYTIC_PROOF",
+      "result": "validation_current/r1/identity_checks.json",
+      "sha256": "b3c43c481dca5e82429c567c9bab121cab837b2bb2e520434173fed9d0688d8c",
+      "scope": "n=3 optimized Li-Zhu operator equality; exact statement proved in SI."
+    },
+    {
+      "claim_id": "R1-04-UPPER",
+      "evidence_type": "EXACT",
+      "result": "validation_current/r1/lz_n4_exact_upper_result.json",
+      "sha256": "79c15b51ac7f1f16c8bb5e6f840b7b509b58b4f7b622796fb36c9ad8bcbf3aed",
+      "scope": "32-setting Z/F-front upper 197537/500000."
+    },
+    {
+      "claim_id": "R1-04-PRIMAL",
+      "evidence_type": "NUMERIC",
+      "result": "validation_current/r1/n4_primal_recomputed.json",
+      "sha256": "0d9bab72fe2d4ae5a61bb77e0e37e92ec1c21c94a3766e2ed4591f86be4a47e6",
+      "scope": "Supplied floating feasible gap; not interval-certified."
+    },
+    {
+      "claim_id": "R1-05",
+      "evidence_type": "EXACT",
+      "result": "validation_current/r1/lz_fullmenu_exact_half_result.json",
+      "sha256": "ca69c3008e8aa83bafd95ffcb10cf4f99e88634f69cd4f676f041a3c994a5445",
+      "scope": "23 unrestricted-terminal-ray settings attain half gap; outside full fixed-PVM C1(4)."
+    },
+    {
+      "claim_id": "R1-06",
+      "evidence_type": "EXACT",
+      "result": "validation_current/r1/fullmenu_ray_inventory.json",
+      "sha256": "02e7b55c77d1e89b219609facb4b9cbe543cb69f25756f0e1a7e0265030e411c",
+      "scope": "Implementation-specific ray/PVM inventory."
+    },
+    {
+      "claim_id": "R2-04",
+      "evidence_type": "MIXED",
+      "result": "validation_current/r2/results/achievable_tradeoff_verified.json",
+      "sha256": "a8e99fc6292651235e1ec516620341ec9edcbeb4cd7f997d872c8defff2cebd7",
+      "scope": "Finite exact/numerical regression for constructive spectra; full proof in SI."
+    },
+    {
+      "claim_id": "R3-01",
+      "evidence_type": "EXACT_FINITE",
+      "result": "validation_current/r3/results/graph_lemmas.json",
+      "sha256": "af10b40030f88b58fb4a54b1501ef7a6835a6f653fab113a89172d6911072f57",
+      "scope": "Finite graph/compatibility regression, not proof for all n."
+    },
+    {
+      "claim_id": "R3-05",
+      "evidence_type": "EXACT_FINITE",
+      "result": "validation_current/r3/results/odd_modulus_extension.json",
+      "sha256": "a90f1a618d64799228c8e3d2aaa4c52de62ef5c8df538bf30a6362b02ca302f2",
+      "scope": "Odd d>=3 extension checks; no six-dimensional R4 constant extrapolation."
+    },
+    {
+      "claim_id": "R4-01",
+      "evidence_type": "EXACT_FINITE",
+      "result": "validation_current/r4/results/robust_combinatorics.json",
+      "sha256": "e0e8b9777c8f370c6ea183a856b4e9e9acf0133b41982785bdf785c6ddf803d4",
+      "scope": "Finite combinatorial regressions."
+    },
+    {
+      "claim_id": "R4-04-N3",
+      "evidence_type": "EXACT_FINITE",
+      "result": "validation_current/r4/results/direct_local_n3.json",
+      "sha256": "32dc3fb1502459c93ddc8ab44c95ebe7c5d92d82cd4917dd11f30a17be53872b",
+      "scope": "Independent direct native amplitude and local repair checks."
+    },
+    {
+      "claim_id": "R4-04-N4",
+      "evidence_type": "EXACT_FINITE",
+      "result": "validation_current/r4/results/direct_local_n4.json",
+      "sha256": "5fa9c535c144b2c2bbeccfbc616ffb31df261730fb19ab7d09a63e0c89271ac5",
+      "scope": "Independent direct native amplitude and local repair checks."
+    },
+    {
+      "claim_id": "TABLES",
+      "evidence_type": "FORMULA_EVALUATION",
+      "result": "validation_current/tables/claim_values.json",
+      "sha256": "ad0e18a77a0797b1f0b75a16813dc6d7ccc0e6842500f6738d740a3de381561d",
+      "scope": "Exact formula evaluation, not dense spectra or exact optimal widths."
+    },
+    {
+      "claim_id": "R2-N4-R1",
+      "evidence_type": "EXACT",
+      "result": "validation_current/r2/results/witness_n4_w1_native_verified.json",
+      "sha256": "54b1ad15de9ca01f07a738a776ea877f1c9352b9974ceafdb604327dd1366768",
+      "scope": "Exact-size native check; smaller sizes covered separately for at-most conclusion."
+    },
+    {
+      "claim_id": "R2-N5-R1",
+      "evidence_type": "EXACT",
+      "result": "validation_current/r2/results/witness_n5_w1_native_verified.json",
+      "sha256": "3dc5f1d36a327d95c2f2e75368c65b269e5aacd3950bc2d31e67a6dc940aa3a2",
+      "scope": "Exact-size native check; smaller sizes covered separately for at-most conclusion."
+    },
+    {
+      "claim_id": "R2-N6-R2",
+      "evidence_type": "EXACT",
+      "result": "validation_current/r2/results/witness_n6_w2_native_verified.json",
+      "sha256": "bd49c72c500b16c0f890122851b6653f9822e4de48a97eaf1987c248cf00c3ea",
+      "scope": "Exact-size native check; smaller sizes covered separately for at-most conclusion."
+    },
+    {
+      "claim_id": "R2-N6-R1",
+      "evidence_type": "EXACT",
+      "result": "validation_current/r2/results/witness_n6_w1_companion_native_verified.json",
+      "sha256": "9d81e18490ddf41b5f9e534682a73c436de426381fc42f4d74d660e16a9dd89e",
+      "scope": "Exact-size native check; smaller sizes covered separately for at-most conclusion."
+    },
+    {
+      "claim_id": "R4-N3-R0",
+      "evidence_type": "EXACT",
+      "result": "validation_current/r4/results/robust_n3_w0_native_verified.json",
+      "sha256": "3d65eb95cc9570d8e00867b22acb56c91476c1796731193b1dfd8421cdcffc85",
+      "scope": "Raw witness value; gap ceiling is a separate analytic result."
+    },
+    {
+      "claim_id": "R4-N3-R1",
+      "evidence_type": "EXACT",
+      "result": "validation_current/r4/results/robust_n3_w1_native_verified.json",
+      "sha256": "49f66991eaf5795ccf9dc6fc4bd828bf3b74115b4498ffc12b44ff88a47a555f",
+      "scope": "Raw witness value; gap ceiling is a separate analytic result."
+    },
+    {
+      "claim_id": "R4-N3-R2",
+      "evidence_type": "EXACT",
+      "result": "validation_current/r4/results/robust_n3_w2_native_verified.json",
+      "sha256": "a7ffb217bce9140280f308c753523a28dae81a7afea7048d46d2c9ec39f757bb",
+      "scope": "Raw witness value; gap ceiling is a separate analytic result."
+    },
+    {
+      "claim_id": "R4-N4-R0",
+      "evidence_type": "EXACT",
+      "result": "validation_current/r4/results/robust_n4_w0_native_verified.json",
+      "sha256": "758977cc1e16103cd47c62204fce7f916aaecde035f962fb10c5d973677ed834",
+      "scope": "Raw witness value; gap ceiling is a separate analytic result."
+    },
+    {
+      "claim_id": "R4-N4-R1",
+      "evidence_type": "EXACT",
+      "result": "validation_current/r4/results/robust_n4_w1_native_verified.json",
+      "sha256": "44ab0d697e41aae54976959a4c9851c510d7d16d1243e35f76cf83ba4b45142c",
+      "scope": "Raw witness value; gap ceiling is a separate analytic result."
+    },
+    {
+      "claim_id": "R4-N4-R2",
+      "evidence_type": "EXACT",
+      "result": "validation_current/r4/results/robust_n4_w2_native_verified.json",
+      "sha256": "3b86c1125c87f523e1ab71dfe0a355b77e3b91a01db5a8aed1df5fb76f0508d6",
+      "scope": "Raw witness value; gap ceiling is a separate analytic result."
+    },
+    {
+      "claim_id": "R4-N4-R3",
+      "evidence_type": "EXACT",
+      "result": "validation_current/r4/results/robust_n4_w3_native_verified.json",
+      "sha256": "e7ebaef374928e2e1897b8684d74a57ccdd28a6a61612f28bc2d40799cff05df",
+      "scope": "Raw witness value; gap ceiling is a separate analytic result."
+    },
+    {
+      "claim_id": "R4-N5-R0",
+      "evidence_type": "EXACT",
+      "result": "validation_current/r4/results/robust_n5_w0_native_verified.json",
+      "sha256": "b35c917ad85ec5152a10ce131c755c699fda61c4ae897b0e61c0f6af6f7d10cf",
+      "scope": "Raw witness value; gap ceiling is a separate analytic result."
+    },
+    {
+      "claim_id": "R4-N5-R1",
+      "evidence_type": "EXACT",
+      "result": "validation_current/r4/results/robust_n5_w1_native_verified.json",
+      "sha256": "8d56e93b56ab4b065f7c733c490fc5c4ca9e85992567c8318b9c7a3c93bf60ce",
+      "scope": "Raw witness value; gap ceiling is a separate analytic result."
+    },
+    {
+      "claim_id": "R4-N5-R2",
+      "evidence_type": "EXACT",
+      "result": "validation_current/r4/results/robust_n5_w2_native_verified.json",
+      "sha256": "22f9cb417833ec0a0f85d723dc6ecae767bb272dd7f4bda99eccb10bd1450edc",
+      "scope": "Raw witness value; gap ceiling is a separate analytic result."
+    },
+    {
+      "claim_id": "R4-N6-R1",
+      "evidence_type": "EXACT",
+      "result": "validation_current/r4/results/robust_n6_w1_native_verified.json",
+      "sha256": "c003882d282c96df1a603feb2ca1cf4ad30f9054272cfe52b06fd0ceb86f5020",
+      "scope": "Raw witness value; gap ceiling is a separate analytic result."
+    },
+    {
+      "claim_id": "R4-N6-R2",
+      "evidence_type": "EXACT",
+      "result": "validation_current/r4/results/robust_n6_w2_native_verified.json",
+      "sha256": "4e82cd2bf55eebd8b109073402c57fde96561ff17c267841b3be217f132d82b6",
+      "scope": "Raw witness value; gap ceiling is a separate analytic result."
+    },
+    {
+      "claim_id": "R4-N6-R3",
+      "evidence_type": "EXACT",
+      "result": "validation_current/r4/results/robust_n6_w3_native_verified.json",
+      "sha256": "4f3df533190133e311ef00fff12be6dfdb964aacf5ed85fdc0b650bc2e0341fa",
+      "scope": "Raw witness value; gap ceiling is a separate analytic result."
+    }
+  ],
+  "overall_receipt": "validation_current/RUN_RECEIPT.json",
+  "manuscript_locations": "MANUSCRIPT_MAPPING.md; author final location map derives numbers/pages from fresh aux."
+}

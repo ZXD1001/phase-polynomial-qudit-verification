@@ -1,0 +1,22 @@
+[1/21] code/audit_evidence.py --output results/evidence_audit.json
+[2/21] code/verify_graph_lemmas.py --max-n 12 --walsh-max-n 6 --output results/round3_graph_audit.json
+[3/21] code/verify_robust_combinatorics.py --max-n 12 --mask-max-n 8 --output results/robust_combinatorics.json
+[4/21] code/verify_odd_modulus_extension.py --output results/round3_odd_modulus_audit.json
+[5/21] prior_checks/exact_certificate.py
+[6/21] prior_checks/certify_fullmenu_half.py --verify-only
+[7/21] code/verify_width_certificate.py inputs/robust_n3_w0.json --native
+[8/21] code/verify_width_certificate.py inputs/robust_n3_w1.json --native
+[9/21] code/verify_width_certificate.py inputs/robust_n3_w2.json --native
+[10/21] code/verify_width_certificate.py inputs/robust_n4_w0.json --native
+[11/21] code/verify_width_certificate.py inputs/robust_n4_w1.json --native
+[12/21] code/verify_width_certificate.py inputs/robust_n4_w2.json --native
+[13/21] code/verify_width_certificate.py inputs/robust_n4_w3.json --native
+[14/21] code/verify_width_certificate.py inputs/robust_n5_w0.json --native
+[15/21] code/verify_width_certificate.py inputs/robust_n5_w1.json --native
+[16/21] code/verify_width_certificate.py inputs/robust_n5_w2.json --native
+[17/21] code/verify_width_certificate.py inputs/robust_n6_w1.json --native
+[18/21] code/verify_width_certificate.py inputs/robust_n6_w2.json --native
+[19/21] code/verify_width_certificate.py inputs/robust_n6_w3.json --native
+[20/21] code/verify_direct_and_local.py --n 3 --output results/direct_local_n3.json
+[21/21] code/verify_direct_and_local.py --n 4 --output results/direct_local_n4.json
+PASS 21 steps in 63.88s

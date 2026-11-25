@@ -1,0 +1,199 @@
+{
+  "status": "PASS",
+  "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "platform": "macOS-15.3-arm64-arm-64bit",
+  "steps": [
+    {
+      "command": [
+        "code/verify_graph_lemmas.py",
+        "--max-n",
+        "12",
+        "--walsh-max-n",
+        "6",
+        "--output",
+        "results/graph_lemmas.json"
+      ],
+      "exit_code": 0,
+      "seconds": 0.4395560410339385
+    },
+    {
+      "command": [
+        "code/verify_local_and_parameters.py",
+        "--output",
+        "results/local_and_parameters.json",
+        "--inputs",
+        "inputs"
+      ],
+      "exit_code": 0,
+      "seconds": 3.982928332989104
+    },
+    {
+      "command": [
+        "code/make_companion.py",
+        "--inputs",
+        "inputs"
+      ],
+      "exit_code": 0,
+      "seconds": 0.02705995802534744
+    },
+    {
+      "command": [
+        "code/verify_odd_prime_extension.py",
+        "--output",
+        "results/odd_prime_extension.json"
+      ],
+      "exit_code": 0,
+      "seconds": 0.04438820801442489
+    },
+    {
+      "command": [
+        "code/verify_odd_modulus_extension.py",
+        "--output",
+        "results/odd_modulus_extension.json"
+      ],
+      "exit_code": 0,
+      "seconds": 0.14909862499916926
+    },
+    {
+      "command": [
+        "code/verify_width_certificate.py",
+        "inputs/family_n4_w1.json",
+        "--native"
+      ],
+      "exit_code": 0,
+      "seconds": 0.8206538750091568
+    },
+    {
+      "command": [
+        "code/verify_width_certificate.py",
+        "inputs/family_n5_w1.json",
+        "--native"
+      ],
+      "exit_code": 0,
+      "seconds": 1.4299968749983236
+    },
+    {
+      "command": [
+        "code/verify_width_certificate.py",
+        "inputs/family_n6_w1_companion.json",
+        "--native"
+      ],
+      "exit_code": 0,
+      "seconds": 10.504633040982299
+    },
+    {
+      "command": [
+        "code/verify_width_certificate.py",
+        "inputs/family_n6_w2.json",
+        "--native"
+      ],
+      "exit_code": 0,
+      "seconds": 17.921913583006244
+    },
+    {
+      "command": [
+        "code/verify_family_direct_omega6.py"
+      ],
+      "exit_code": 0,
+      "seconds": 0.44533558399416506
+    },
+    {
+      "command": [
+        "code/audit_author.py",
+        "--source",
+        "sources/Supplementary_Software",
+        "--destination",
+        "author_rerun",
+        "--output",
+        "results/author_audit.json"
+      ],
+      "exit_code": 0,
+      "seconds": 46.3807611669763
+    }
+  ],
+  "source_sha256": {
+    "code/audit_author.py": "1026b0d71eacaf4261611514af69ff438e5a2a67cafcf10ee661b723929363f2",
+    "code/character_game.py": "9642070d5259f7a9dce4cc2d09ede101f4b18256c26d46447fbbc54d4161f1a1",
+    "code/family_certificate.py": "a08602ac05545726e152fa58e3e8feee52dfdc2d37914cf396d59bdf8efddb36",
+    "code/make_companion.py": "3c052c35582493b342de78bbb5b876c94090ffc2dcddd8d862fe3eb5a145a100",
+    "code/menu_witness.py": "121e994f532981b228846a903daf967615034da4e7ca8062df4fc34cd66f1458",
+    "code/verify_family_direct_omega6.py": "24d80e8fb0cc099bcbb5d56e2534acc92480d4fe002e913c3b1c478fc12b5992",
+    "code/verify_graph_lemmas.py": "c0e9301fb371564006a2f92242ed1e3ca16f7004409e3469a57ad9c319e7886e",
+    "code/verify_local_and_parameters.py": "0a643804d73bcf062da59c80192b28fc1c1af7cd3c7e01459af2a6ac5fac7a63",
+    "code/verify_native_certificate.py": "b6207abafbd6f011cf098438f2c736ca772dfdadf72decbb461adc4403f58476",
+    "code/verify_odd_modulus_extension.py": "6284c80e732918efd19739b79a62f65aa950fa52c1b2e201b468874625de3854",
+    "code/verify_odd_prime_extension.py": "a977fe04918bebbda96d0c46d184eef7d70b57c9a6269e63216e4c933d592828",
+    "code/verify_width_certificate.py": "5bd96d678514cc17a20280a2e999444a93a94e469b09e4185a2521b684c0541c",
+    "inputs/family_n100_w49.json": "56ba907c157c3a8551f4781a890d2a5921ec3fa85bafd2ce9adaed64399e14e2",
+    "inputs/family_n100_w50.json": "a67d6d857d3495d025ced1cb5ee42ce2a944dc41f6253e999f52373dec37f07b",
+    "inputs/family_n2_w0.json": "19b150df6bba691fad145735af396d20ee95d565087c27585c87b66d716704cb",
+    "inputs/family_n2_w1.json": "53a56dd569850c31e835d470ce6c0e030e83e7f9a792ad5f03e093bd82c9f3c5",
+    "inputs/family_n3_w0.json": "e9f9bb9bbcaacafc6fb36581734660c2e76276c9958f2775ddea3b45b9ef6f73",
+    "inputs/family_n3_w1.json": "d00433dca3007d47caafcae1ab84e99439d12d4c58bf829617b4651ef6f5b6be",
+    "inputs/family_n4_w1.json": "845dfae68daab4859e263a06ae1fe8549733d863754868195777a5c0b397addf",
+    "inputs/family_n4_w2.json": "3e916a30a3c8e35c8c90c130418bcda527a81fd6059e02e72d364e9d29d99a18",
+    "inputs/family_n5_w1.json": "9830ae4b7fa582cec9eddd9184a83e7f72ff614ec4d596f1def541963768fdc3",
+    "inputs/family_n5_w2.json": "68727081df1eaadf6e61471d280794782d3ff5ea9b92e009855b5f59ecd20897",
+    "inputs/family_n6_w1_companion.json": "05b5c4d83dec68a98e3e6f2db40900aab286d9d1d857b614335f752712fbda82",
+    "inputs/family_n6_w2.json": "2829462c6edd47335022e98d60618d8a12d97af176cc15e1f2ddc3ee0efab1b3",
+    "inputs/family_n6_w3.json": "262ca393e672c604872c548391dd57e36c490479043d12c2ae4240be0d056094",
+    "inputs/family_n7_w2.json": "20119654440e1d13156562d58d837c5004643e6e711a89a24b6525d38756a4a6",
+    "inputs/family_n7_w3.json": "e1d8482958c4d7b1ab479415be13ac6d2634d1e70a5b1d8bdbf89e8665c9d71e",
+    "inputs/family_n8_w3.json": "a199da58a13803ddd7497e3e23c969de1b3890ebc5a5cc94d042a1708cedc535",
+    "inputs/family_n8_w4.json": "ff698f23c553248ef65dfa01addb8fc540bf1e9e9aec7a85d6e251100c9f5d3c",
+    "sources/Supplementary_Software/MANUSCRIPT_MAPPING.md": "bb3d1f2984311781fc12f927b8ef038436f04732610b53135c07e513e6014ff7",
+    "sources/Supplementary_Software/README.md": "0b3a2889f744214d59e4362d3cdd2698d54b5bc5d432ac63b37f5d804388b4ea",
+    "sources/Supplementary_Software/SHA256SUMS.txt": "863a60185a13e1c85ff926d4052f03cd309b6014e6453e01f26de04dd18c6c40",
+    "sources/Supplementary_Software/comparison.csv": "4f275a442b03c48f24bf715cefd5fdb104d5bdf1f46638de8da1c146ba417b20",
+    "sources/Supplementary_Software/comparison.json": "b406fcef75d43b9be5aeefff563c718b624e8d8cb6553550f4239fb14aa243bf",
+    "sources/Supplementary_Software/lz_benchmark/README.md": "fc81338cd89e7f2a06bb4f9abe1c1697274d1bef128eec0625423a53f2678983",
+    "sources/Supplementary_Software/lz_benchmark/benchmark_lz.py": "1f0930b14a7d330b43644779265a82e7826613184e56db415db63787c6d1f514",
+    "sources/Supplementary_Software/lz_benchmark/conditional_branches_n2.npz": "c80a1a1787b4ed56901ad88ab0e96fdd879acfb7aa6de6481e8080a71a34e1aa",
+    "sources/Supplementary_Software/lz_benchmark/conditional_branches_n3.npz": "edeed04175e0afd7cea0a114d6e0ecc550ad5b5ce1c23a97ddf21534f274b846",
+    "sources/Supplementary_Software/lz_benchmark/conditional_branches_n4.npz": "112a8ccea1b7a518a5008d82c186ac1e0518871e9bf0876a261f9528ac615924",
+    "sources/Supplementary_Software/lz_benchmark/inputs_and_environment.json": "93047f8e7af7b02fbd8592b94f7049fba2262d4eafdd01aad9a431e985d30880",
+    "sources/Supplementary_Software/lz_benchmark/operators_and_spectra_n2.npz": "5de3779deb83b3484295ac3001a4a91888e8a703669e0236e29819b213fe182d",
+    "sources/Supplementary_Software/lz_benchmark/operators_and_spectra_n3.npz": "95b4ea6cea521dda9960dc47f3be432a68372fc48486e99a955e873cc861ab83",
+    "sources/Supplementary_Software/lz_benchmark/operators_and_spectra_n4.npz": "03648d790e6f466e2b936824a336f3ffacaa69599c9c9c92df4a5e35f7459497",
+    "sources/Supplementary_Software/lz_benchmark/requirements.txt": "7bd6b8946940b79948c548c8048e545684b91c8edc9444d8dfc0c8f76a97c0a7",
+    "sources/Supplementary_Software/lz_benchmark/results_n2.json": "ee28fdf81d46a7b2cd7b7cac5a23ee470c406715c4dbe6f440f3356d414c2d4a",
+    "sources/Supplementary_Software/lz_benchmark/results_n3.json": "f6a7cabbb27267acf821f57705cd889c9b97a5849da03ebd50a7e4fb55e75523",
+    "sources/Supplementary_Software/lz_benchmark/results_n4.json": "6e448bcbdba18be20fa81b8ef77e56d2653ba396262298d4e2157750bd3b20b2",
+    "sources/Supplementary_Software/lz_benchmark/source_receipt.json": "4872e16d5a8a836a6b3f7dc03affddc9f17a2c2dde711dd433c15424481a8e5e",
+    "sources/Supplementary_Software/lz_benchmark/technical_evidence.md": "269be3ab55b76c69f161264a13d7618c0a72b5d3479295ac0b40aae116832ab6",
+    "sources/Supplementary_Software/lz_benchmark/verification_report.json": "ea31024bf338dbb396c510f9812fde5587911ba094e4a5384c571d860f6262ae",
+    "sources/Supplementary_Software/lz_benchmark/verify_exports.py": "6e659285db457a8b3ffd695513ad5c3ba5988ccb83ccfe3a598e848ec0ff5e67",
+    "sources/Supplementary_Software/original_reproduction/NUMERICAL_COMPARISON.md": "bd8c113a07c1e8aa1f06a81e196827ec29a3aa4394162e3672eea2a34639f1b7",
+    "sources/Supplementary_Software/original_reproduction/README.md": "9aacd0b37139f97909fbd0e96d4394cf2ae9c84beb2cb0cbcd0112377f8a0840",
+    "sources/Supplementary_Software/original_reproduction/historical_original/README_validation.md": "748c4e89cfd2716a2d288831b1fe2af85f970450494c8bcbdacb62c6bf690800",
+    "sources/Supplementary_Software/original_reproduction/historical_original/validate_phase_polynomial_blocks.py": "3d3208a8ac06b42ab4e37bf9d4553fee164b3391984a99dba6664a6e26e4ca0d",
+    "sources/Supplementary_Software/original_reproduction/inputs.json": "5ab161fc3c8342ecb7f2cd7b7b60252d27ba43167a3926f375b6ad665af411ec",
+    "sources/Supplementary_Software/original_reproduction/provenance.json": "58a9b95543969d950ba48d84cce50e414ef8ad6165af88a693b51032d1d98d1c",
+    "sources/Supplementary_Software/original_reproduction/reproduce.py": "72bd06dfe4f010f2be2e85cd800c6dfc26b3747bcf66c2f0bac6df9269cb2a37",
+    "sources/Supplementary_Software/original_reproduction/requirements.txt": "7bd6b8946940b79948c548c8048e545684b91c8edc9444d8dfc0c8f76a97c0a7",
+    "sources/Supplementary_Software/original_reproduction/results/environment.json": "7e0433bc236fad0114297e68b36b3de731679a9f516139cdc95d43770e56ca64",
+    "sources/Supplementary_Software/original_reproduction/results/historical_stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sources/Supplementary_Software/original_reproduction/results/historical_stdout.txt": "cdc58aef15e3d2ca52ddcd269acb8db4921e33d0c0916046506003b0f94db50a",
+    "sources/Supplementary_Software/original_reproduction/results/reproduction_results.json": "88311b554afcc3a812a599cd0eb280e6df586ca3b0da0d7bbd19d9614d919763",
+    "sources/Supplementary_Software/original_reproduction/results/runner_stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sources/Supplementary_Software/original_reproduction/results/runner_stdout.txt": "1015c4d001827fa22a67f108b1da91b1131a79435c6cfe400e5cdc167e2d4a60",
+    "sources/Supplementary_Software/requirements.txt": "7bd6b8946940b79948c548c8048e545684b91c8edc9444d8dfc0c8f76a97c0a7",
+    "sources/Supplementary_Software/resources/README.md": "2d20bfb541abec787c56451518f1c98eb2eb69e4f4d829908822e91e3d90e104",
+    "sources/Supplementary_Software/resources/compiled_three_bases.json": "00a21bdac72d127d39060843514a759369ad833d7b0071f6471179c478e43b4e",
+    "sources/Supplementary_Software/resources/resource_checks.json": "04fbc24fce1f763b9a163d608064a0d255f5839aff1f037e3643e8e0ea7f1eb9",
+    "sources/Supplementary_Software/resources/verify_resource_model.py": "2dca9d317b7560658b1e1f2ad399a6675d6a1ca97ceb5c54e6029c9803a4fe00",
+    "sources/Supplementary_Software/run_all.py": "e701b803e67d9c3dc886b0ac6844ea1d712d855179d352f3673bb4db409850eb",
+    "sources/Supplementary_Software/structured_benchmark/README.md": "13e8b36915489c9480181ca6e13c4e7599daa515dd2e1ae973b12142898fc547",
+    "sources/Supplementary_Software/structured_benchmark/benchmark_results.json": "e40b09ce9d086d6887861da7702f73697e2d5c198a13213b9e29188bcc2efd4f",
+    "sources/Supplementary_Software/structured_benchmark/exact_n2_certificate.py": "ade07574284544733a0302d10fdcd981011cbe993e82d8a922340ec3bf9de3e5",
+    "sources/Supplementary_Software/structured_benchmark/pauli_search.py": "87605f6e3c3963987249753592d9605d7569c51c618e593995a7aab0d467d405",
+    "sources/Supplementary_Software/structured_benchmark/run_benchmark.py": "9f45dd20ce7b3f668e0a2fce15890e6a82a88dc5a9110d61ba4db0166085af38",
+    "sources/Supplementary_Software/summarize_results.py": "b57e6cc2bdb320318fe01a51b9b8a81003ef83ad10083a2925fd826e3a0d8290",
+    "sources/Supplementary_Software/validation_receipt.json": "92d151ac840729af52eec93e23ec45fc5c9ed53e0471710a9fe2500d5e4106dd"
+  },
+  "note": "Finite checks are not a formal proof for all n; see REPORT.md.",
+  "seconds": 82.16358158399817,
+  "source_bytes_unchanged": true
+}

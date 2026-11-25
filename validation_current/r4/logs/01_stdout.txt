@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "author_archive_sha256": "6ec5cf1f684c2b8bf0670b80eea700a45f259b9425fc16904c173e6526d35755",
+  "author_manifest_entries": 48,
+  "prior_round3_steps": 11,
+  "prior_author_six_stage_receipt_matches_received_source": true,
+  "author_full_pipeline_rerun_this_round": false,
+  "note": "Archive bytes/manifests and prior receipts checked now. The six-stage run itself occurred in round 3, not this round."
+}

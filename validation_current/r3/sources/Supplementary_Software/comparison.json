@@ -1,0 +1,241 @@
+{
+  "statistical_model": "trusted ideal measurements; independent, possibly non-identical preparations; mean tested-state infidelity at least epsilon; all tests pass",
+  "formula": "ceil(log(delta)/log(1-gap*epsilon))",
+  "not_applicable_without_extension": "arbitrarily correlated sources, retained-output-state certification, imperfect-completeness measurements",
+  "rows": [
+    {
+      "n": 2,
+      "protocol": "adaptive_two_colors",
+      "gap": 0.5,
+      "evidence": "analytic",
+      "epsilon": 0.01,
+      "delta": 0.05,
+      "N_all_pass": 598
+    },
+    {
+      "n": 2,
+      "protocol": "uniform_independent_HT_matching",
+      "gap": 0.16666666666666666,
+      "evidence": "analytic",
+      "epsilon": 0.01,
+      "delta": 0.05,
+      "N_all_pass": 1796
+    },
+    {
+      "n": 2,
+      "protocol": "uniform_shared_index_matching",
+      "gap": 0.16666666666666666,
+      "evidence": "analytic",
+      "epsilon": 0.01,
+      "delta": 0.05,
+      "N_all_pass": 1796
+    },
+    {
+      "n": 2,
+      "protocol": "optimal_in_matching_only_class",
+      "gap": 0.25,
+      "evidence": "analytic restricted optimum",
+      "epsilon": 0.01,
+      "delta": 0.05,
+      "N_all_pass": 1197
+    },
+    {
+      "n": 2,
+      "protocol": "LZ_best_tested_MUB_terminal_1",
+      "gap": 0.49999999999999944,
+      "evidence": "finite-size floating spectrum; uniform basis weights",
+      "epsilon": 0.01,
+      "delta": 0.05,
+      "N_all_pass": 598
+    },
+    {
+      "n": 2,
+      "protocol": "LZ_best_tested_CMUB_terminal_1",
+      "gap": 0.49999999999999944,
+      "evidence": "finite-size floating spectrum; uniform basis weights",
+      "epsilon": 0.01,
+      "delta": 0.05,
+      "N_all_pass": 598
+    },
+    {
+      "n": 2,
+      "protocol": "LZ_SMUB_uniform_terminals",
+      "gap": 0.4442062251179918,
+      "evidence": "finite-size floating spectrum",
+      "epsilon": 0.01,
+      "delta": 0.05,
+      "N_all_pass": 673
+    },
+    {
+      "n": 2,
+      "protocol": "LZ_SCMUB_uniform_terminals",
+      "gap": 0.4442062251179918,
+      "evidence": "finite-size floating spectrum",
+      "epsilon": 0.01,
+      "delta": 0.05,
+      "N_all_pass": 673
+    },
+    {
+      "n": 3,
+      "protocol": "adaptive_two_colors",
+      "gap": 0.5,
+      "evidence": "analytic",
+      "epsilon": 0.01,
+      "delta": 0.05,
+      "N_all_pass": 598
+    },
+    {
+      "n": 3,
+      "protocol": "uniform_independent_HT_matching",
+      "gap": 0.16666666666666666,
+      "evidence": "analytic",
+      "epsilon": 0.01,
+      "delta": 0.05,
+      "N_all_pass": 1796
+    },
+    {
+      "n": 3,
+      "protocol": "uniform_shared_index_matching",
+      "gap": 0.16666666666666666,
+      "evidence": "analytic",
+      "epsilon": 0.01,
+      "delta": 0.05,
+      "N_all_pass": 1796
+    },
+    {
+      "n": 3,
+      "protocol": "optimal_in_matching_only_class",
+      "gap": 0.16666666666666666,
+      "evidence": "analytic restricted optimum",
+      "epsilon": 0.01,
+      "delta": 0.05,
+      "N_all_pass": 1796
+    },
+    {
+      "n": 3,
+      "protocol": "LZ_best_tested_MUB_terminal_1",
+      "gap": 0.1723188492216936,
+      "evidence": "finite-size floating spectrum; uniform basis weights",
+      "epsilon": 0.01,
+      "delta": 0.05,
+      "N_all_pass": 1737
+    },
+    {
+      "n": 3,
+      "protocol": "LZ_best_tested_CMUB_terminal_2",
+      "gap": 0.14644660940672483,
+      "evidence": "finite-size floating spectrum; uniform basis weights",
+      "epsilon": 0.01,
+      "delta": 0.05,
+      "N_all_pass": 2045
+    },
+    {
+      "n": 3,
+      "protocol": "LZ_SMUB_uniform_terminals",
+      "gap": 0.24999999999999956,
+      "evidence": "finite-size floating spectrum",
+      "epsilon": 0.01,
+      "delta": 0.05,
+      "N_all_pass": 1197
+    },
+    {
+      "n": 3,
+      "protocol": "LZ_SCMUB_uniform_terminals",
+      "gap": 0.16666666666666619,
+      "evidence": "finite-size floating spectrum",
+      "epsilon": 0.01,
+      "delta": 0.05,
+      "N_all_pass": 1796
+    },
+    {
+      "n": 4,
+      "protocol": "adaptive_two_colors",
+      "gap": 0.5,
+      "evidence": "analytic",
+      "epsilon": 0.01,
+      "delta": 0.05,
+      "N_all_pass": 598
+    },
+    {
+      "n": 4,
+      "protocol": "uniform_independent_HT_matching",
+      "gap": 0.16666666666666666,
+      "evidence": "analytic",
+      "epsilon": 0.01,
+      "delta": 0.05,
+      "N_all_pass": 1796
+    },
+    {
+      "n": 4,
+      "protocol": "uniform_shared_index_matching",
+      "gap": 0.16666666666666666,
+      "evidence": "analytic",
+      "epsilon": 0.01,
+      "delta": 0.05,
+      "N_all_pass": 1796
+    },
+    {
+      "n": 4,
+      "protocol": "optimal_in_matching_only_class",
+      "gap": 0.16666666666666666,
+      "evidence": "analytic restricted optimum",
+      "epsilon": 0.01,
+      "delta": 0.05,
+      "N_all_pass": 1796
+    },
+    {
+      "n": 4,
+      "protocol": "LZ_best_tested_MUB_terminal_2",
+      "gap": 0.13957151567333215,
+      "evidence": "finite-size floating spectrum; uniform basis weights",
+      "epsilon": 0.01,
+      "delta": 0.05,
+      "N_all_pass": 2145
+    },
+    {
+      "n": 4,
+      "protocol": "LZ_best_tested_CMUB_terminal_1",
+      "gap": 0.0,
+      "evidence": "finite-size floating spectrum; uniform basis weights",
+      "epsilon": 0.01,
+      "delta": 0.05,
+      "N_all_pass": null
+    },
+    {
+      "n": 4,
+      "protocol": "LZ_SMUB_uniform_terminals",
+      "gap": 0.23927559648333463,
+      "evidence": "finite-size floating spectrum",
+      "epsilon": 0.01,
+      "delta": 0.05,
+      "N_all_pass": 1251
+    },
+    {
+      "n": 4,
+      "protocol": "LZ_SCMUB_uniform_terminals",
+      "gap": 0.19652826267129475,
+      "evidence": "finite-size floating spectrum",
+      "epsilon": 0.01,
+      "delta": 0.05,
+      "N_all_pass": 1523
+    },
+    {
+      "n": 2,
+      "protocol": "optimal_in_144_CRT_product_Pauli_class",
+      "gap": 0.2727272727272727,
+      "evidence": "exact rational certificate",
+      "epsilon": 0.01,
+      "delta": 0.05,
+      "N_all_pass": 1097
+    },
+    {
+      "n": 3,
+      "protocol": "constructed_CRT_product_Pauli_numeric_primal",
+      "gap": 0.196940647015155,
+      "evidence": "floating construction; not interval certified",
+      "epsilon": 0.01,
+      "delta": 0.05,
+      "N_all_pass": 1520
+    }
+  ]
+}

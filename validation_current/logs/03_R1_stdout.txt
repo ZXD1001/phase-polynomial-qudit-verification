@@ -1,0 +1,1 @@
+EXACT_PASS: all32 expectations <=197537/500000; max display 0.39507372803477375 raycount 8 errorsectorcount 1

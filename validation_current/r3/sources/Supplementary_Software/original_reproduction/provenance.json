@@ -1,0 +1,44 @@
+{
+  "scope": "Original manuscript Eq. (38) and Eq. (39), with d=2,3 regression cases; not a reproduction of all manuscript theorems.",
+  "files": [
+    {
+      "role": "historical_original",
+      "source_path": "validate_phase_polynomial_blocks.py",
+      "preserved_path": "historical_original/validate_phase_polynomial_blocks.py",
+      "sha256": "3d3208a8ac06b42ab4e37bf9d4553fee164b3391984a99dba6664a6e26e4ca0d",
+      "bytes": 5124
+    },
+    {
+      "role": "historical_original",
+      "source_path": "README_validation.md",
+      "preserved_path": "historical_original/README_validation.md",
+      "sha256": "748c4e89cfd2716a2d288831b1fe2af85f970450494c8bcbdacb62c6bf690800",
+      "bytes": 1435
+    },
+    {
+      "role": "manuscript_reference_not_copied",
+      "source_path": "Main_arbitrary_d_phase_polynomial.tex",
+      "sha256": "3c52994db53810ec70209aabe0afd47983cf02a5a7b345e3d152c24f2d6691b7",
+      "bytes": 75902
+    },
+    {
+      "role": "manuscript_reference_not_copied",
+      "source_path": "Main_arbitrary_d_phase_polynomial.pdf",
+      "sha256": "bc5f4d8ec42c3252fa2a7789c031cb706a7e4732a46d2b5113ecee2d03a9ba86",
+      "bytes": 262747
+    },
+    {
+      "role": "manuscript_reference_not_copied",
+      "source_path": "Supplementary_arbitrary_d_phase_polynomial.tex",
+      "sha256": "dc68f07f2a1bd02f8425324b6381712d5f7359dbaf8884d3fb4b1c66fdd17445",
+      "bytes": 55118
+    },
+    {
+      "role": "manuscript_reference_not_copied",
+      "source_path": "Supplementary_arbitrary_d_phase_polynomial.pdf",
+      "sha256": "db824544ca3d9c3ccf54d02269607e6fe972354c069710eb3f8e2e72b523fa61",
+      "bytes": 191883
+    }
+  ],
+  "source_version": "Previous submitted manuscript, preserved in local Git baseline a133ac761db42d29a9d152b87a60d78e0d80c684. Equation-number mapping is given in MANUSCRIPT_MAPPING.md."
+}

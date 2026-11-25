@@ -1,0 +1,279 @@
+{
+  "n": 6,
+  "adaptive_width": 3,
+  "menu": "Z,B0,B1,B2",
+  "claim_upper": "37/72",
+  "spectral_upper_with_menu_cap": "1/2",
+  "denominator": 72,
+  "achievable_lower": "1/2",
+  "terms": [
+    {
+      "qubit_character": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "qutrit_character": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "weight": "1/24"
+    },
+    {
+      "qubit_character": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "qutrit_character": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "weight": "1/24"
+    },
+    {
+      "qubit_character": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "qutrit_character": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "weight": "1/24"
+    },
+    {
+      "qubit_character": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "qutrit_character": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "weight": "1/24"
+    },
+    {
+      "qubit_character": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "qutrit_character": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "weight": "1/24"
+    },
+    {
+      "qubit_character": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "qutrit_character": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "weight": "1/72"
+    },
+    {
+      "qubit_character": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "qutrit_character": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "weight": "7/72"
+    },
+    {
+      "qubit_character": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "qutrit_character": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "weight": "7/72"
+    },
+    {
+      "qubit_character": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "qutrit_character": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "weight": "7/72"
+    },
+    {
+      "qubit_character": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "qutrit_character": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "weight": "7/72"
+    },
+    {
+      "qubit_character": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "qutrit_character": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "weight": "7/72"
+    },
+    {
+      "qubit_character": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "qutrit_character": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "weight": "7/72"
+    },
+    {
+      "qubit_character": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      "qutrit_character": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "weight": "7/72"
+    },
+    {
+      "qubit_character": [
+        1,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "qutrit_character": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "weight": "7/72"
+    }
+  ],
+  "class_description": "At most r preselected second-layer sites; complete native records; arbitrary randomized/correlated second-layer menu choices; strongest support acceptance.",
+  "evidence": "Analytic family certificate. claim_upper is the witness bound BEFORE the separate menu-wide 1/2 spectral cap; it can exceed 1/2 for large widths."
+}

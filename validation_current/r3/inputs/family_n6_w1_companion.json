@@ -1,0 +1,304 @@
+{
+  "status": "ANALYTIC_FAMILY_CERTIFICATE_INPUT",
+  "n": 6,
+  "adaptive_width": 1,
+  "menu": "Z,B0,B1,B2",
+  "class": "exactly one second-layer site; companion coverage for the at-most-two result using sigma_(6,2)",
+  "claim_upper": "151/304",
+  "minimum_width_for_half": 3,
+  "m": [
+    3,
+    2
+  ],
+  "graph_noncolor_penalty": "1/18",
+  "terms": [
+    {
+      "qubit_character": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "qutrit_character": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "weight": "3/304"
+    },
+    {
+      "qubit_character": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "qutrit_character": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "weight": "7/608"
+    },
+    {
+      "qubit_character": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "qutrit_character": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "weight": "3/304"
+    },
+    {
+      "qubit_character": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "qutrit_character": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "weight": "7/608"
+    },
+    {
+      "qubit_character": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "qutrit_character": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "weight": "3/304"
+    },
+    {
+      "qubit_character": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "qutrit_character": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "weight": "1/19"
+    },
+    {
+      "qubit_character": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "qutrit_character": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "weight": "3/19"
+    },
+    {
+      "qubit_character": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "qutrit_character": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "weight": "3/19"
+    },
+    {
+      "qubit_character": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "qutrit_character": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "weight": "1/19"
+    },
+    {
+      "qubit_character": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "qutrit_character": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "weight": "3/19"
+    },
+    {
+      "qubit_character": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "qutrit_character": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "weight": "1/19"
+    },
+    {
+      "qubit_character": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "qutrit_character": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "weight": "3/19"
+    },
+    {
+      "qubit_character": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      "qutrit_character": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "weight": "1/19"
+    },
+    {
+      "qubit_character": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "qutrit_character": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "weight": "1/19"
+    },
+    {
+      "qubit_character": [
+        1,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "qutrit_character": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "weight": "1/19"
+    }
+  ],
+  "evidence": "The infinite family follows from the analytic lemmas in REPORT.md; finite tests are independent implementation checks, not the proof.",
+  "witness_parameter_budget": 2,
+  "companion_note": "The witness and claimed upper are generated for r=2; only the enumerated second-layer size is one."
+}

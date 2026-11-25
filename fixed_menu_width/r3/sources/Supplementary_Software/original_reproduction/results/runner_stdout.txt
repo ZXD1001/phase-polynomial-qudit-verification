@@ -1,0 +1,5 @@
+d2_regression: pass=True, accept_residual=4.756218e-16, all_sector_residual=4.756218e-16, gap=0.333333333333333
+d3_regression: pass=True, accept_residual=9.425599e-16, all_sector_residual=1.047943e-15, gap=0.333333333333332
+d4_eq38: pass=True, accept_residual=1.224647e-16, all_sector_residual=1.731912e-16, gap=0.333333333333333
+d6_eq39: pass=True, accept_residual=8.329022e-16, all_sector_residual=1.097546e-15, gap=0.499999999999999
+historical_exit_code=0; overall_pass=True

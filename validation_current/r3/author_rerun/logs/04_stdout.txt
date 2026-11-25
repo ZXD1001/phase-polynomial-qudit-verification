@@ -1,0 +1,114 @@
+{
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "paths": [
+    {
+      "n": 2,
+      "hilbert_dimension": 36,
+      "actual_independent_setting_counts_by_color": [
+        3,
+        1
+      ],
+      "independent_sampling_random_trits_per_copy_at_most": 1,
+      "adaptive_physical_vs_operator_max_errors": [
+        5.597879337844606e-17,
+        5.597879337844606e-17
+      ],
+      "independent_physical_vs_HT_product_formula_max_errors": [
+        3.3390201770390703e-16,
+        5.597879337844606e-17
+      ],
+      "independent_vs_shared_max_entry_difference": 1.1161529113213078e-16,
+      "independent_saturating_vector_residual": 6.938893903907228e-17,
+      "shared_saturating_vector_residual": 6.206335383118183e-17,
+      "analytical_adaptive_gap": "1/2",
+      "analytical_uniform_color_independent_gap": "1/6",
+      "analytical_uniform_color_shared_gap": "1/6",
+      "adaptive_gap_eigensolver": 0.49999999999999944,
+      "independent_gap_eigensolver": 0.1666666666666663,
+      "shared_gap_eigensolver": 0.16666666666666574,
+      "optimized_four_setting_gap": 0.24999999999999922
+    },
+    {
+      "n": 3,
+      "hilbert_dimension": 216,
+      "actual_independent_setting_counts_by_color": [
+        3,
+        3
+      ],
+      "independent_sampling_random_trits_per_copy_at_most": 1,
+      "adaptive_physical_vs_operator_max_errors": [
+        3.5762240613454975e-17,
+        5.597879337844606e-17
+      ],
+      "independent_physical_vs_HT_product_formula_max_errors": [
+        1.2509268882771003e-16,
+        3.3390201770390703e-16
+      ],
+      "independent_vs_shared_max_entry_difference": 1.121445360278131e-16,
+      "independent_saturating_vector_residual": 3.469446951953614e-17,
+      "shared_saturating_vector_residual": 2.8609792490763984e-17,
+      "analytical_adaptive_gap": "1/2",
+      "analytical_uniform_color_independent_gap": "1/6",
+      "analytical_uniform_color_shared_gap": "1/6",
+      "adaptive_gap_eigensolver": 0.4999999999999982,
+      "independent_gap_eigensolver": 0.1666666666666654,
+      "shared_gap_eigensolver": 0.16666666666666619
+    },
+    {
+      "n": 4,
+      "hilbert_dimension": 1296,
+      "actual_independent_setting_counts_by_color": [
+        9,
+        3
+      ],
+      "independent_sampling_random_trits_per_copy_at_most": 2,
+      "adaptive_physical_vs_operator_max_errors": [
+        3.5762240613454975e-17,
+        3.5762240613454975e-17
+      ],
+      "independent_physical_vs_HT_product_formula_max_errors": [
+        3.334077974125706e-16,
+        1.2794688166302258e-16
+      ],
+      "independent_vs_shared_max_entry_difference": 0.07716049382716039,
+      "independent_saturating_vector_residual": 2.082177815100097e-17,
+      "shared_saturating_vector_residual": 1.8683543625880677e-17,
+      "analytical_adaptive_gap": "1/2",
+      "analytical_uniform_color_independent_gap": "1/6",
+      "analytical_uniform_color_shared_gap": "1/6"
+    }
+  ],
+  "n2_direct_six_level": {
+    "enumerated_physical_six_level_bases": 144,
+    "max_direct_physical_vs_CRT_tensor_acceptance_error": 2.5133742693021536e-16,
+    "construction_settings": 30,
+    "weight_sum": 0.9999999999999996,
+    "direct_physical_gap": 0.2727272727272718,
+    "exact_optimum_gap_in_full_defined_CRT_class": "3/11",
+    "qubit_diagnostics": {
+      "maximum_zero_amplitude": 4.329780281177466e-17,
+      "minimum_nonzero_amplitude": 0.49999999999999983,
+      "maximum_projector_residual": 4.440892098500626e-16,
+      "maximum_completeness_residual": 4.46194941739124e-16,
+      "maximum_basis_unitarity_residual": 4.440892098500626e-16,
+      "total_bases": 9,
+      "nontrivial_tests": 3
+    },
+    "qutrit_diagnostics": {
+      "maximum_zero_amplitude": 1.7554167342883506e-16,
+      "minimum_nonzero_amplitude": 0.33333333333333315,
+      "maximum_projector_residual": 8.824005074055055e-16,
+      "maximum_completeness_residual": 6.129836312251329e-16,
+      "maximum_basis_unitarity_residual": 1.0037857831816934e-15,
+      "total_bases": 16,
+      "nontrivial_tests": 13
+    }
+  },
+  "runtime_seconds": 6.048549500002991,
+  "n3_numeric_bracket": [
+    0.196940647015155,
+    0.19694158754294872
+  ],
+  "n3_numerical_bracket_width": 9.405277937024614e-07
+}

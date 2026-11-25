@@ -1,0 +1,244 @@
+{
+  "status": "PASS",
+  "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "sympy": "1.14.0",
+  "platform": "macOS-15.3-arm64-arm-64bit",
+  "steps": [
+    {
+      "command": [
+        "code/audit_evidence.py",
+        "--output",
+        "results/evidence_audit.json"
+      ],
+      "exit_code": 0,
+      "seconds": 0.055542041023727506
+    },
+    {
+      "command": [
+        "code/verify_graph_lemmas.py",
+        "--max-n",
+        "12",
+        "--walsh-max-n",
+        "6",
+        "--output",
+        "results/round3_graph_audit.json"
+      ],
+      "exit_code": 0,
+      "seconds": 0.4482122089830227
+    },
+    {
+      "command": [
+        "code/verify_robust_combinatorics.py",
+        "--max-n",
+        "12",
+        "--mask-max-n",
+        "8",
+        "--output",
+        "results/robust_combinatorics.json"
+      ],
+      "exit_code": 0,
+      "seconds": 0.5663087500142865
+    },
+    {
+      "command": [
+        "code/verify_odd_modulus_extension.py",
+        "--output",
+        "results/round3_odd_modulus_audit.json"
+      ],
+      "exit_code": 0,
+      "seconds": 0.1491997079574503
+    },
+    {
+      "command": [
+        "prior_checks/exact_certificate.py"
+      ],
+      "exit_code": 0,
+      "seconds": 1.2426317500066943
+    },
+    {
+      "command": [
+        "prior_checks/certify_fullmenu_half.py",
+        "--verify-only"
+      ],
+      "exit_code": 0,
+      "seconds": 0.6851232079789042
+    },
+    {
+      "command": [
+        "code/verify_width_certificate.py",
+        "inputs/robust_n3_w0.json",
+        "--native"
+      ],
+      "exit_code": 0,
+      "seconds": 0.9115165830007754
+    },
+    {
+      "command": [
+        "code/verify_width_certificate.py",
+        "inputs/robust_n3_w1.json",
+        "--native"
+      ],
+      "exit_code": 0,
+      "seconds": 0.7368455829564482
+    },
+    {
+      "command": [
+        "code/verify_width_certificate.py",
+        "inputs/robust_n3_w2.json",
+        "--native"
+      ],
+      "exit_code": 0,
+      "seconds": 0.7402391250361688
+    },
+    {
+      "command": [
+        "code/verify_width_certificate.py",
+        "inputs/robust_n4_w0.json",
+        "--native"
+      ],
+      "exit_code": 0,
+      "seconds": 0.7998637499986216
+    },
+    {
+      "command": [
+        "code/verify_width_certificate.py",
+        "inputs/robust_n4_w1.json",
+        "--native"
+      ],
+      "exit_code": 0,
+      "seconds": 0.8129797090077773
+    },
+    {
+      "command": [
+        "code/verify_width_certificate.py",
+        "inputs/robust_n4_w2.json",
+        "--native"
+      ],
+      "exit_code": 0,
+      "seconds": 0.8250681670033373
+    },
+    {
+      "command": [
+        "code/verify_width_certificate.py",
+        "inputs/robust_n4_w3.json",
+        "--native"
+      ],
+      "exit_code": 0,
+      "seconds": 0.8056770000257529
+    },
+    {
+      "command": [
+        "code/verify_width_certificate.py",
+        "inputs/robust_n5_w0.json",
+        "--native"
+      ],
+      "exit_code": 0,
+      "seconds": 1.2634669169783592
+    },
+    {
+      "command": [
+        "code/verify_width_certificate.py",
+        "inputs/robust_n5_w1.json",
+        "--native"
+      ],
+      "exit_code": 0,
+      "seconds": 1.4079884590464644
+    },
+    {
+      "command": [
+        "code/verify_width_certificate.py",
+        "inputs/robust_n5_w2.json",
+        "--native"
+      ],
+      "exit_code": 0,
+      "seconds": 1.5869293750147335
+    },
+    {
+      "command": [
+        "code/verify_width_certificate.py",
+        "inputs/robust_n6_w1.json",
+        "--native"
+      ],
+      "exit_code": 0,
+      "seconds": 9.934796415967867
+    },
+    {
+      "command": [
+        "code/verify_width_certificate.py",
+        "inputs/robust_n6_w2.json",
+        "--native"
+      ],
+      "exit_code": 0,
+      "seconds": 17.59795608301647
+    },
+    {
+      "command": [
+        "code/verify_width_certificate.py",
+        "inputs/robust_n6_w3.json",
+        "--native"
+      ],
+      "exit_code": 0,
+      "seconds": 22.52120758302044
+    },
+    {
+      "command": [
+        "code/verify_direct_and_local.py",
+        "--n",
+        "3",
+        "--output",
+        "results/direct_local_n3.json"
+      ],
+      "exit_code": 0,
+      "seconds": 0.22552816604729742
+    },
+    {
+      "command": [
+        "code/verify_direct_and_local.py",
+        "--n",
+        "4",
+        "--output",
+        "results/direct_local_n4.json"
+      ],
+      "exit_code": 0,
+      "seconds": 0.5456474999664351
+    }
+  ],
+  "source_sha256": {
+    "code/audit_evidence.py": "bd528181f713701b388213cf476d520a5e529bd56693b7fd796a7fd39e2a7823",
+    "code/character_game.py": "9642070d5259f7a9dce4cc2d09ede101f4b18256c26d46447fbbc54d4161f1a1",
+    "code/family_certificate.py": "a08602ac05545726e152fa58e3e8feee52dfdc2d37914cf396d59bdf8efddb36",
+    "code/menu_witness.py": "121e994f532981b228846a903daf967615034da4e7ca8062df4fc34cd66f1458",
+    "code/robust_certificate.py": "839c0911384e526dcf928d5680814eaa5e9992fdd96efab4f9b00cb3a17269a8",
+    "code/verify_direct_and_local.py": "d5e8f29712765d84000a6cb88bf38503e1e03d05ec7428ed606a25a22e6a230e",
+    "code/verify_graph_lemmas.py": "c0e9301fb371564006a2f92242ed1e3ca16f7004409e3469a57ad9c319e7886e",
+    "code/verify_native_certificate.py": "b6207abafbd6f011cf098438f2c736ca772dfdadf72decbb461adc4403f58476",
+    "code/verify_odd_modulus_extension.py": "6284c80e732918efd19739b79a62f65aa950fa52c1b2e201b468874625de3854",
+    "code/verify_robust_combinatorics.py": "f77b6671a94a3d88b80c04f56b78925d9c46b8470c50da9ba23c4f397e66025b",
+    "code/verify_width_certificate.py": "5bd96d678514cc17a20280a2e999444a93a94e469b09e4185a2521b684c0541c",
+    "inputs/robust_n3_w0.json": "95bd8f3efb723cccd2b89e155866d3c0b98eef0105919ff54393e4a127b4145b",
+    "inputs/robust_n3_w1.json": "4439c0b00b1ab7bee18ea35a19d0e489f28e911a83cbb246fbf7b71a1deb756c",
+    "inputs/robust_n3_w2.json": "293ab156e6f59535d03de4ee2f824f6f05e8aff9e11d265a3606b19fc6724609",
+    "inputs/robust_n4_w0.json": "f3ab665bd043a49d8a23d1983493530432572190cb99cda4d154976110063e45",
+    "inputs/robust_n4_w1.json": "c26a81c06e61003606328bc85181a2a2a2a04447da325326ce7b427db88eeb26",
+    "inputs/robust_n4_w2.json": "08df7c512af33f9995103cd4be064d947e7b0ae7a17ea143ac916784172bc39e",
+    "inputs/robust_n4_w3.json": "72a1715e2ae62ca6fb2873dcc5d575c039f153358e5bafbae6482ca1ccbf4fc2",
+    "inputs/robust_n5_w0.json": "c077d8683c82672704b422f328de77ad6d3bc1b5855de246edcd25adeb999120",
+    "inputs/robust_n5_w1.json": "8f363f1066fe9dc5dcb423cc75be34fb07c5d3dff64f6fb3a615a58e1667dfe3",
+    "inputs/robust_n5_w2.json": "4727f19cd0b5579c3eff3c94858d56c7c25e51889ce492bffbf4ea525c979f74",
+    "inputs/robust_n6_w1.json": "6e9fc3340db51eb9bf4f70fb2aabf53c5d6c0880fc75900640588a1bd09a540d",
+    "inputs/robust_n6_w2.json": "8d3fdcda264d15740e0814db0968a5f2bd80438a0fc8ac567af431782c7d6aea",
+    "inputs/robust_n6_w3.json": "ec5cf954e100751279c0ed73a12c1989ed10777cfff28edf036a6e01909a4cd9",
+    "source_archives/Supplementary_Software.zip": "6ec5cf1f684c2b8bf0670b80eea700a45f259b9425fc16904c173e6526d35755",
+    "reference_receipts/author_round3_audit.json": "25457c8320f6f22dfa1e5b1aabd0c5dadc1a372cffa60379fedd9e92810c63d9",
+    "reference_receipts/author_round3_run_report.json": "0bfadac5162af75c6ba968af13c941cb6c5da2389e4f58cd35662b784027a48e",
+    "reference_receipts/round3_validation_receipt.json": "48241d1deaa20761ae922562d64b1c095fce5fa2689aae6228223543ee03a5c0",
+    "prior_checks/certify_fullmenu_half.py": "47f7d872719c9e03e56627cbe4ced168ac99e20f4ffbaa87dc3cb34b48f8c7d6",
+    "prior_checks/exact_certificate.py": "d7a1f8957e5c4fa8431a847adec1baea44893360c2c32d206c9e19853c3aed3a",
+    "prior_checks/lz_fullmenu_exact_half_certificate.json": "06fc0690416980d3f37fbd5f22304e5b6878c23e22c51d8e3f014b084c9c0fe7"
+  },
+  "seconds": 63.87966316699749,
+  "source_bytes_unchanged": true,
+  "evidence_boundary": "Finite checks support implementations; the all-n proof is in REPORT.md. Author full six-stage rerun is historical round-3 evidence, not re-executed in this round."
+}

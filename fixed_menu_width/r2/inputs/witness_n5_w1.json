@@ -1,0 +1,198 @@
+{
+  "n": 5,
+  "adaptive_width": 1,
+  "menu": "Z,B0,B1,B2",
+  "claim_upper": "26915/68048",
+  "target": "directed native d=6 path, F=sum(2*x_v^2+3*x_v)*x_(v+1) mod 6",
+  "class": "preselected first-layer subset and product menu bases, at most adaptive_width remaining sites, arbitrary jointly randomized second-layer product menu bases depending on entire first-layer record, strongest perfect-completeness global acceptance; each site measured once; no ancillas or inter-site gates",
+  "terms": [
+    {
+      "weight": "4815/34024",
+      "qubit_character": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "qutrit_character": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "weight": "11697/68048",
+      "qubit_character": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "qutrit_character": [
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "weight": "591/17012",
+      "qubit_character": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "qutrit_character": [
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "weight": "3633/34024",
+      "qubit_character": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "qutrit_character": [
+        0,
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "weight": "6063/34024",
+      "qubit_character": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "qutrit_character": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "weight": "927/34024",
+      "qubit_character": [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "qutrit_character": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "weight": "951/34024",
+      "qubit_character": [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "qutrit_character": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "weight": "3091/34024",
+      "qubit_character": [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "qutrit_character": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "weight": "2651/34024",
+      "qubit_character": [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "qutrit_character": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "weight": "1867/34024",
+      "qubit_character": [
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "qutrit_character": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "weight": "5991/68048",
+      "qubit_character": [
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      "qutrit_character": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "input_generation": "Exact specified weights or rational proposals reconstructed from floating discovery. Only separately passing verifier certifies upper bound."
+}

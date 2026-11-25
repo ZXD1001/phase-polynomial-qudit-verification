@@ -1,0 +1,6 @@
+{
+  "all_recorded_checks_passed": true,
+  "comparison_rows": 26,
+  "illustrative_epsilon": 0.01,
+  "illustrative_delta": 0.05
+}

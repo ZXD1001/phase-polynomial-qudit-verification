@@ -1,0 +1,193 @@
+{
+  "receipt_version": 1,
+  "validation_date": "2026-09-28",
+  "status": "PASS",
+  "scope": "Independent execution of the delivered package in a fresh destination; no code or recorded numerical outputs were edited.",
+  "portable_invocation": [
+    "python3",
+    "run_all.py",
+    "--destination",
+    "../software-rerun"
+  ],
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "platform": "macOS-15.3-arm64-arm-64bit"
+  },
+  "six_stage_exit_status": 0,
+  "steps": [
+    {
+      "stage": 1,
+      "command": [
+        "python3",
+        "original_reproduction/reproduce.py"
+      ],
+      "exit_status": 0,
+      "summary": {
+        "all_cases_passed": true,
+        "cases": [
+          {
+            "case_id": "d2_regression",
+            "passed": true,
+            "observed_gap": 0.33333333333333337,
+            "maximum_all_sector_residual": 4.756218207842876e-16
+          },
+          {
+            "case_id": "d3_regression",
+            "passed": true,
+            "observed_gap": 0.3333333333333319,
+            "maximum_all_sector_residual": 1.0479428687534289e-15
+          },
+          {
+            "case_id": "d4_eq38",
+            "passed": true,
+            "observed_gap": 0.3333333333333328,
+            "maximum_all_sector_residual": 1.7319121124709873e-16
+          },
+          {
+            "case_id": "d6_eq39",
+            "passed": true,
+            "observed_gap": 0.4999999999999991,
+            "maximum_all_sector_residual": 1.0975463483345935e-15
+          }
+        ]
+      }
+    },
+    {
+      "stage": 2,
+      "command": [
+        "python3",
+        "lz_benchmark/benchmark_lz.py",
+        "--n",
+        "2",
+        "3",
+        "4"
+      ],
+      "exit_status": 0,
+      "summary": {
+        "sizes": [
+          2,
+          3,
+          4
+        ],
+        "generated": [
+          {
+            "n": 2,
+            "individual_tests": 4,
+            "protocols": 6,
+            "front_branches": 24
+          },
+          {
+            "n": 3,
+            "individual_tests": 12,
+            "protocols": 8,
+            "front_branches": 432
+          },
+          {
+            "n": 4,
+            "individual_tests": 32,
+            "protocols": 10,
+            "front_branches": 6912
+          }
+        ],
+        "support": "Exact sixth-root cyclotomic integers; spectra use complex128."
+      }
+    },
+    {
+      "stage": 3,
+      "command": [
+        "python3",
+        "lz_benchmark/verify_exports.py"
+      ],
+      "exit_status": 0,
+      "summary": {
+        "status": "PASS",
+        "largest_conditional_amplitude_error": 8.923972451726578e-16,
+        "largest_isometry_gram_residual_frobenius": 6.720455320067973e-14
+      }
+    },
+    {
+      "stage": 4,
+      "command": [
+        "python3",
+        "structured_benchmark/run_benchmark.py"
+      ],
+      "exit_status": 0,
+      "summary": {
+        "physical_matching_sizes": [
+          2,
+          3,
+          4
+        ],
+        "exact_two_site_gap": "3/11",
+        "direct_six_level_gap": 0.2727272727272718,
+        "three_site_floating_primal_dual": [
+          0.196940647015155,
+          0.19694158754294872
+        ],
+        "numerical_scope": "The three-site pair is not an interval-arithmetic certificate."
+      }
+    },
+    {
+      "stage": 5,
+      "command": [
+        "python3",
+        "resources/verify_resource_model.py"
+      ],
+      "exit_status": 0,
+      "summary": {
+        "all_checks_passed": true,
+        "exactly_compared_branches": 7368,
+        "largest_complete_basis_reconstruction_error": 2.990062884376508e-15,
+        "large_n_single_branch": [
+          20,
+          100,
+          500
+        ]
+      }
+    },
+    {
+      "stage": 6,
+      "command": [
+        "python3",
+        "summarize_results.py"
+      ],
+      "exit_status": 0,
+      "summary": {
+        "comparison_rows": 26,
+        "epsilon": 0.01,
+        "delta": 0.05,
+        "all_pass_formula": "ceil(log(delta)/log(1-gap*epsilon))"
+      }
+    }
+  ],
+  "runner_source_bytes_unchanged": true,
+  "preserved_historical_file_sha256": {
+    "original_reproduction/historical_original/README_validation.md": "748c4e89cfd2716a2d288831b1fe2af85f970450494c8bcbdacb62c6bf690800",
+    "original_reproduction/historical_original/validate_phase_polynomial_blocks.py": "3d3208a8ac06b42ab4e37bf9d4553fee164b3391984a99dba6664a6e26e4ca0d"
+  },
+  "packaged_source_sha256": {
+    "original_reproduction/reproduce.py": "72bd06dfe4f010f2be2e85cd800c6dfc26b3747bcf66c2f0bac6df9269cb2a37",
+    "original_reproduction/inputs.json": "5ab161fc3c8342ecb7f2cd7b7b60252d27ba43167a3926f375b6ad665af411ec",
+    "original_reproduction/provenance.json": "58a9b95543969d950ba48d84cce50e414ef8ad6165af88a693b51032d1d98d1c",
+    "original_reproduction/historical_original/validate_phase_polynomial_blocks.py": "3d3208a8ac06b42ab4e37bf9d4553fee164b3391984a99dba6664a6e26e4ca0d",
+    "lz_benchmark/benchmark_lz.py": "1f0930b14a7d330b43644779265a82e7826613184e56db415db63787c6d1f514",
+    "lz_benchmark/verify_exports.py": "6e659285db457a8b3ffd695513ad5c3ba5988ccb83ccfe3a598e848ec0ff5e67",
+    "structured_benchmark/run_benchmark.py": "9f45dd20ce7b3f668e0a2fce15890e6a82a88dc5a9110d61ba4db0166085af38",
+    "structured_benchmark/pauli_search.py": "87605f6e3c3963987249753592d9605d7569c51c618e593995a7aab0d467d405",
+    "structured_benchmark/exact_n2_certificate.py": "ade07574284544733a0302d10fdcd981011cbe993e82d8a922340ec3bf9de3e5",
+    "resources/verify_resource_model.py": "2dca9d317b7560658b1e1f2ad399a6675d6a1ca97ceb5c54e6029c9803a4fe00",
+    "summarize_results.py": "b57e6cc2bdb320318fe01a51b9b8a81003ef83ad10083a2925fd826e3a0d8290"
+  },
+  "existing_package_files_changed_by_documentation_audit": [
+    "original_reproduction/README.md",
+    "lz_benchmark/README.md"
+  ],
+  "independent_run_report_sha256": "aa2a20672ead345acd563ba3b1af11bf13a4337b7fd390a6ebcca13e393a2abd",
+  "evidence_note": "The runner saved per-stage stdout/stderr and run_report.json in the new validation destination. The numerical summaries above were read from that actual run. Historical files and all existing numerical artifacts retain their original bytes.",
+  "limits": [
+    "Finite-size numerical checks do not prove general-size theorems.",
+    "The n=3 CRT optimization uses floating-point primal/dual candidates without rigorous outward rounding.",
+    "No public repository deposition, DOI or software licence is asserted."
+  ]
+}

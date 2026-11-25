@@ -1,0 +1,12 @@
+{
+  "status": "NUMERIC_PASS",
+  "evidence_type": "NUMERIC",
+  "n": 4,
+  "class": "32 terminal/Z-F front settings; unrestricted conditional terminal rays",
+  "primal_gap": 0.395073546778861,
+  "reported_candidate_gap": 0.39507354677886075,
+  "candidate_gap_residual": 2.220446049250313e-16,
+  "normalization_residual": 0.0,
+  "tolerance": 1e-12,
+  "scope": "Feasible-weight floating spectrum; not interval certification or an exact class optimum."
+}

@@ -1,0 +1,63 @@
+{
+  "status": "EXACT_PASS",
+  "cases": [
+    {
+      "p": 3,
+      "native_dimension": 6,
+      "complete_local_menu_size": 4,
+      "gauss_norm_cases": 9,
+      "crt_edge_cases": 36,
+      "status": "EXACT_PASS"
+    },
+    {
+      "p": 5,
+      "native_dimension": 10,
+      "complete_local_menu_size": 6,
+      "gauss_norm_cases": 25,
+      "crt_edge_cases": 100,
+      "status": "EXACT_PASS"
+    },
+    {
+      "p": 7,
+      "native_dimension": 14,
+      "complete_local_menu_size": 8,
+      "gauss_norm_cases": 49,
+      "crt_edge_cases": 196,
+      "status": "EXACT_PASS"
+    },
+    {
+      "p": 11,
+      "native_dimension": 22,
+      "complete_local_menu_size": 12,
+      "gauss_norm_cases": 121,
+      "crt_edge_cases": 484,
+      "status": "EXACT_PASS"
+    },
+    {
+      "p": 13,
+      "native_dimension": 26,
+      "complete_local_menu_size": 14,
+      "gauss_norm_cases": 169,
+      "crt_edge_cases": 676,
+      "status": "EXACT_PASS"
+    },
+    {
+      "p": 17,
+      "native_dimension": 34,
+      "complete_local_menu_size": 18,
+      "gauss_norm_cases": 289,
+      "crt_edge_cases": 1156,
+      "status": "EXACT_PASS"
+    },
+    {
+      "p": 19,
+      "native_dimension": 38,
+      "complete_local_menu_size": 20,
+      "gauss_norm_cases": 361,
+      "crt_edge_cases": 1444,
+      "status": "EXACT_PASS"
+    }
+  ],
+  "scope": "Finite regression only. Analytic corollary applies to every odd prime, not odd composite p or p=2.",
+  "seconds": 0.014915874984581023
+}

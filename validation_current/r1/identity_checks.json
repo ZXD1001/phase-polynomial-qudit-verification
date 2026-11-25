@@ -1,0 +1,2863 @@
+{
+  "status": "PASS",
+  "uniform_rows": [
+    {
+      "n": 2,
+      "terminal_0_indexed": 0,
+      "MUB": 0.4999999999999999,
+      "CMUB": 0.4999999999999999
+    },
+    {
+      "n": 2,
+      "terminal_0_indexed": 1,
+      "MUB": 0.14644660940672605,
+      "CMUB": 0.14644660940672605
+    },
+    {
+      "n": 2,
+      "SMUB": 0.4442062251179918,
+      "SCMUB": 0.4442062251179918
+    },
+    {
+      "n": 3,
+      "terminal_0_indexed": 0,
+      "MUB": 0.17231884922169438,
+      "CMUB": -2.220446049250313e-16
+    },
+    {
+      "n": 3,
+      "terminal_0_indexed": 1,
+      "MUB": 0.1207447705245639,
+      "CMUB": 0.14644660940672638
+    },
+    {
+      "n": 3,
+      "terminal_0_indexed": 2,
+      "MUB": 0.06259179834301987,
+      "CMUB": -6.661338147750939e-16
+    },
+    {
+      "n": 3,
+      "SMUB": 0.25,
+      "SCMUB": 0.16666666666666674
+    },
+    {
+      "n": 4,
+      "terminal_0_indexed": 0,
+      "MUB": 0.08992851031323357,
+      "CMUB": -4.440892098500626e-16
+    },
+    {
+      "n": 4,
+      "terminal_0_indexed": 1,
+      "MUB": 0.13957151567333126,
+      "CMUB": -2.220446049250313e-16
+    },
+    {
+      "n": 4,
+      "terminal_0_indexed": 2,
+      "MUB": 0.05805765411868358,
+      "CMUB": -2.220446049250313e-16
+    },
+    {
+      "n": 4,
+      "terminal_0_indexed": 3,
+      "MUB": 0.03693900678445383,
+      "CMUB": -2.220446049250313e-16
+    },
+    {
+      "n": 4,
+      "SMUB": 0.23927559648333463,
+      "SCMUB": 0.19652826267129453
+    }
+  ],
+  "native_n3_residual_Q0ZF_minus_P0P2": 2.1741173289283755e-15,
+  "native_n3_residual_Q1ZZ_minus_P1": 3.177525700179663e-16,
+  "rank_formula_exact_finite_checks_n2_to_30": [
+    {
+      "n": 2,
+      "k": 0,
+      "rank": 1,
+      "common_qubit_dimension": 1
+    },
+    {
+      "n": 2,
+      "k": 1,
+      "rank": 1,
+      "common_qubit_dimension": 1
+    },
+    {
+      "n": 3,
+      "k": 0,
+      "rank": 2,
+      "common_qubit_dimension": 2
+    },
+    {
+      "n": 3,
+      "k": 1,
+      "rank": 1,
+      "common_qubit_dimension": 1
+    },
+    {
+      "n": 3,
+      "k": 2,
+      "rank": 2,
+      "common_qubit_dimension": 2
+    },
+    {
+      "n": 4,
+      "k": 0,
+      "rank": 3,
+      "common_qubit_dimension": 4
+    },
+    {
+      "n": 4,
+      "k": 1,
+      "rank": 3,
+      "common_qubit_dimension": 4
+    },
+    {
+      "n": 4,
+      "k": 2,
+      "rank": 3,
+      "common_qubit_dimension": 4
+    },
+    {
+      "n": 4,
+      "k": 3,
+      "rank": 3,
+      "common_qubit_dimension": 4
+    },
+    {
+      "n": 5,
+      "k": 0,
+      "rank": 4,
+      "common_qubit_dimension": 8
+    },
+    {
+      "n": 5,
+      "k": 1,
+      "rank": 3,
+      "common_qubit_dimension": 4
+    },
+    {
+      "n": 5,
+      "k": 2,
+      "rank": 4,
+      "common_qubit_dimension": 8
+    },
+    {
+      "n": 5,
+      "k": 3,
+      "rank": 3,
+      "common_qubit_dimension": 4
+    },
+    {
+      "n": 5,
+      "k": 4,
+      "rank": 4,
+      "common_qubit_dimension": 8
+    },
+    {
+      "n": 6,
+      "k": 0,
+      "rank": 5,
+      "common_qubit_dimension": 16
+    },
+    {
+      "n": 6,
+      "k": 1,
+      "rank": 5,
+      "common_qubit_dimension": 16
+    },
+    {
+      "n": 6,
+      "k": 2,
+      "rank": 5,
+      "common_qubit_dimension": 16
+    },
+    {
+      "n": 6,
+      "k": 3,
+      "rank": 5,
+      "common_qubit_dimension": 16
+    },
+    {
+      "n": 6,
+      "k": 4,
+      "rank": 5,
+      "common_qubit_dimension": 16
+    },
+    {
+      "n": 6,
+      "k": 5,
+      "rank": 5,
+      "common_qubit_dimension": 16
+    },
+    {
+      "n": 7,
+      "k": 0,
+      "rank": 6,
+      "common_qubit_dimension": 32
+    },
+    {
+      "n": 7,
+      "k": 1,
+      "rank": 5,
+      "common_qubit_dimension": 16
+    },
+    {
+      "n": 7,
+      "k": 2,
+      "rank": 6,
+      "common_qubit_dimension": 32
+    },
+    {
+      "n": 7,
+      "k": 3,
+      "rank": 5,
+      "common_qubit_dimension": 16
+    },
+    {
+      "n": 7,
+      "k": 4,
+      "rank": 6,
+      "common_qubit_dimension": 32
+    },
+    {
+      "n": 7,
+      "k": 5,
+      "rank": 5,
+      "common_qubit_dimension": 16
+    },
+    {
+      "n": 7,
+      "k": 6,
+      "rank": 6,
+      "common_qubit_dimension": 32
+    },
+    {
+      "n": 8,
+      "k": 0,
+      "rank": 7,
+      "common_qubit_dimension": 64
+    },
+    {
+      "n": 8,
+      "k": 1,
+      "rank": 7,
+      "common_qubit_dimension": 64
+    },
+    {
+      "n": 8,
+      "k": 2,
+      "rank": 7,
+      "common_qubit_dimension": 64
+    },
+    {
+      "n": 8,
+      "k": 3,
+      "rank": 7,
+      "common_qubit_dimension": 64
+    },
+    {
+      "n": 8,
+      "k": 4,
+      "rank": 7,
+      "common_qubit_dimension": 64
+    },
+    {
+      "n": 8,
+      "k": 5,
+      "rank": 7,
+      "common_qubit_dimension": 64
+    },
+    {
+      "n": 8,
+      "k": 6,
+      "rank": 7,
+      "common_qubit_dimension": 64
+    },
+    {
+      "n": 8,
+      "k": 7,
+      "rank": 7,
+      "common_qubit_dimension": 64
+    },
+    {
+      "n": 9,
+      "k": 0,
+      "rank": 8,
+      "common_qubit_dimension": 128
+    },
+    {
+      "n": 9,
+      "k": 1,
+      "rank": 7,
+      "common_qubit_dimension": 64
+    },
+    {
+      "n": 9,
+      "k": 2,
+      "rank": 8,
+      "common_qubit_dimension": 128
+    },
+    {
+      "n": 9,
+      "k": 3,
+      "rank": 7,
+      "common_qubit_dimension": 64
+    },
+    {
+      "n": 9,
+      "k": 4,
+      "rank": 8,
+      "common_qubit_dimension": 128
+    },
+    {
+      "n": 9,
+      "k": 5,
+      "rank": 7,
+      "common_qubit_dimension": 64
+    },
+    {
+      "n": 9,
+      "k": 6,
+      "rank": 8,
+      "common_qubit_dimension": 128
+    },
+    {
+      "n": 9,
+      "k": 7,
+      "rank": 7,
+      "common_qubit_dimension": 64
+    },
+    {
+      "n": 9,
+      "k": 8,
+      "rank": 8,
+      "common_qubit_dimension": 128
+    },
+    {
+      "n": 10,
+      "k": 0,
+      "rank": 9,
+      "common_qubit_dimension": 256
+    },
+    {
+      "n": 10,
+      "k": 1,
+      "rank": 9,
+      "common_qubit_dimension": 256
+    },
+    {
+      "n": 10,
+      "k": 2,
+      "rank": 9,
+      "common_qubit_dimension": 256
+    },
+    {
+      "n": 10,
+      "k": 3,
+      "rank": 9,
+      "common_qubit_dimension": 256
+    },
+    {
+      "n": 10,
+      "k": 4,
+      "rank": 9,
+      "common_qubit_dimension": 256
+    },
+    {
+      "n": 10,
+      "k": 5,
+      "rank": 9,
+      "common_qubit_dimension": 256
+    },
+    {
+      "n": 10,
+      "k": 6,
+      "rank": 9,
+      "common_qubit_dimension": 256
+    },
+    {
+      "n": 10,
+      "k": 7,
+      "rank": 9,
+      "common_qubit_dimension": 256
+    },
+    {
+      "n": 10,
+      "k": 8,
+      "rank": 9,
+      "common_qubit_dimension": 256
+    },
+    {
+      "n": 10,
+      "k": 9,
+      "rank": 9,
+      "common_qubit_dimension": 256
+    },
+    {
+      "n": 11,
+      "k": 0,
+      "rank": 10,
+      "common_qubit_dimension": 512
+    },
+    {
+      "n": 11,
+      "k": 1,
+      "rank": 9,
+      "common_qubit_dimension": 256
+    },
+    {
+      "n": 11,
+      "k": 2,
+      "rank": 10,
+      "common_qubit_dimension": 512
+    },
+    {
+      "n": 11,
+      "k": 3,
+      "rank": 9,
+      "common_qubit_dimension": 256
+    },
+    {
+      "n": 11,
+      "k": 4,
+      "rank": 10,
+      "common_qubit_dimension": 512
+    },
+    {
+      "n": 11,
+      "k": 5,
+      "rank": 9,
+      "common_qubit_dimension": 256
+    },
+    {
+      "n": 11,
+      "k": 6,
+      "rank": 10,
+      "common_qubit_dimension": 512
+    },
+    {
+      "n": 11,
+      "k": 7,
+      "rank": 9,
+      "common_qubit_dimension": 256
+    },
+    {
+      "n": 11,
+      "k": 8,
+      "rank": 10,
+      "common_qubit_dimension": 512
+    },
+    {
+      "n": 11,
+      "k": 9,
+      "rank": 9,
+      "common_qubit_dimension": 256
+    },
+    {
+      "n": 11,
+      "k": 10,
+      "rank": 10,
+      "common_qubit_dimension": 512
+    },
+    {
+      "n": 12,
+      "k": 0,
+      "rank": 11,
+      "common_qubit_dimension": 1024
+    },
+    {
+      "n": 12,
+      "k": 1,
+      "rank": 11,
+      "common_qubit_dimension": 1024
+    },
+    {
+      "n": 12,
+      "k": 2,
+      "rank": 11,
+      "common_qubit_dimension": 1024
+    },
+    {
+      "n": 12,
+      "k": 3,
+      "rank": 11,
+      "common_qubit_dimension": 1024
+    },
+    {
+      "n": 12,
+      "k": 4,
+      "rank": 11,
+      "common_qubit_dimension": 1024
+    },
+    {
+      "n": 12,
+      "k": 5,
+      "rank": 11,
+      "common_qubit_dimension": 1024
+    },
+    {
+      "n": 12,
+      "k": 6,
+      "rank": 11,
+      "common_qubit_dimension": 1024
+    },
+    {
+      "n": 12,
+      "k": 7,
+      "rank": 11,
+      "common_qubit_dimension": 1024
+    },
+    {
+      "n": 12,
+      "k": 8,
+      "rank": 11,
+      "common_qubit_dimension": 1024
+    },
+    {
+      "n": 12,
+      "k": 9,
+      "rank": 11,
+      "common_qubit_dimension": 1024
+    },
+    {
+      "n": 12,
+      "k": 10,
+      "rank": 11,
+      "common_qubit_dimension": 1024
+    },
+    {
+      "n": 12,
+      "k": 11,
+      "rank": 11,
+      "common_qubit_dimension": 1024
+    },
+    {
+      "n": 13,
+      "k": 0,
+      "rank": 12,
+      "common_qubit_dimension": 2048
+    },
+    {
+      "n": 13,
+      "k": 1,
+      "rank": 11,
+      "common_qubit_dimension": 1024
+    },
+    {
+      "n": 13,
+      "k": 2,
+      "rank": 12,
+      "common_qubit_dimension": 2048
+    },
+    {
+      "n": 13,
+      "k": 3,
+      "rank": 11,
+      "common_qubit_dimension": 1024
+    },
+    {
+      "n": 13,
+      "k": 4,
+      "rank": 12,
+      "common_qubit_dimension": 2048
+    },
+    {
+      "n": 13,
+      "k": 5,
+      "rank": 11,
+      "common_qubit_dimension": 1024
+    },
+    {
+      "n": 13,
+      "k": 6,
+      "rank": 12,
+      "common_qubit_dimension": 2048
+    },
+    {
+      "n": 13,
+      "k": 7,
+      "rank": 11,
+      "common_qubit_dimension": 1024
+    },
+    {
+      "n": 13,
+      "k": 8,
+      "rank": 12,
+      "common_qubit_dimension": 2048
+    },
+    {
+      "n": 13,
+      "k": 9,
+      "rank": 11,
+      "common_qubit_dimension": 1024
+    },
+    {
+      "n": 13,
+      "k": 10,
+      "rank": 12,
+      "common_qubit_dimension": 2048
+    },
+    {
+      "n": 13,
+      "k": 11,
+      "rank": 11,
+      "common_qubit_dimension": 1024
+    },
+    {
+      "n": 13,
+      "k": 12,
+      "rank": 12,
+      "common_qubit_dimension": 2048
+    },
+    {
+      "n": 14,
+      "k": 0,
+      "rank": 13,
+      "common_qubit_dimension": 4096
+    },
+    {
+      "n": 14,
+      "k": 1,
+      "rank": 13,
+      "common_qubit_dimension": 4096
+    },
+    {
+      "n": 14,
+      "k": 2,
+      "rank": 13,
+      "common_qubit_dimension": 4096
+    },
+    {
+      "n": 14,
+      "k": 3,
+      "rank": 13,
+      "common_qubit_dimension": 4096
+    },
+    {
+      "n": 14,
+      "k": 4,
+      "rank": 13,
+      "common_qubit_dimension": 4096
+    },
+    {
+      "n": 14,
+      "k": 5,
+      "rank": 13,
+      "common_qubit_dimension": 4096
+    },
+    {
+      "n": 14,
+      "k": 6,
+      "rank": 13,
+      "common_qubit_dimension": 4096
+    },
+    {
+      "n": 14,
+      "k": 7,
+      "rank": 13,
+      "common_qubit_dimension": 4096
+    },
+    {
+      "n": 14,
+      "k": 8,
+      "rank": 13,
+      "common_qubit_dimension": 4096
+    },
+    {
+      "n": 14,
+      "k": 9,
+      "rank": 13,
+      "common_qubit_dimension": 4096
+    },
+    {
+      "n": 14,
+      "k": 10,
+      "rank": 13,
+      "common_qubit_dimension": 4096
+    },
+    {
+      "n": 14,
+      "k": 11,
+      "rank": 13,
+      "common_qubit_dimension": 4096
+    },
+    {
+      "n": 14,
+      "k": 12,
+      "rank": 13,
+      "common_qubit_dimension": 4096
+    },
+    {
+      "n": 14,
+      "k": 13,
+      "rank": 13,
+      "common_qubit_dimension": 4096
+    },
+    {
+      "n": 15,
+      "k": 0,
+      "rank": 14,
+      "common_qubit_dimension": 8192
+    },
+    {
+      "n": 15,
+      "k": 1,
+      "rank": 13,
+      "common_qubit_dimension": 4096
+    },
+    {
+      "n": 15,
+      "k": 2,
+      "rank": 14,
+      "common_qubit_dimension": 8192
+    },
+    {
+      "n": 15,
+      "k": 3,
+      "rank": 13,
+      "common_qubit_dimension": 4096
+    },
+    {
+      "n": 15,
+      "k": 4,
+      "rank": 14,
+      "common_qubit_dimension": 8192
+    },
+    {
+      "n": 15,
+      "k": 5,
+      "rank": 13,
+      "common_qubit_dimension": 4096
+    },
+    {
+      "n": 15,
+      "k": 6,
+      "rank": 14,
+      "common_qubit_dimension": 8192
+    },
+    {
+      "n": 15,
+      "k": 7,
+      "rank": 13,
+      "common_qubit_dimension": 4096
+    },
+    {
+      "n": 15,
+      "k": 8,
+      "rank": 14,
+      "common_qubit_dimension": 8192
+    },
+    {
+      "n": 15,
+      "k": 9,
+      "rank": 13,
+      "common_qubit_dimension": 4096
+    },
+    {
+      "n": 15,
+      "k": 10,
+      "rank": 14,
+      "common_qubit_dimension": 8192
+    },
+    {
+      "n": 15,
+      "k": 11,
+      "rank": 13,
+      "common_qubit_dimension": 4096
+    },
+    {
+      "n": 15,
+      "k": 12,
+      "rank": 14,
+      "common_qubit_dimension": 8192
+    },
+    {
+      "n": 15,
+      "k": 13,
+      "rank": 13,
+      "common_qubit_dimension": 4096
+    },
+    {
+      "n": 15,
+      "k": 14,
+      "rank": 14,
+      "common_qubit_dimension": 8192
+    },
+    {
+      "n": 16,
+      "k": 0,
+      "rank": 15,
+      "common_qubit_dimension": 16384
+    },
+    {
+      "n": 16,
+      "k": 1,
+      "rank": 15,
+      "common_qubit_dimension": 16384
+    },
+    {
+      "n": 16,
+      "k": 2,
+      "rank": 15,
+      "common_qubit_dimension": 16384
+    },
+    {
+      "n": 16,
+      "k": 3,
+      "rank": 15,
+      "common_qubit_dimension": 16384
+    },
+    {
+      "n": 16,
+      "k": 4,
+      "rank": 15,
+      "common_qubit_dimension": 16384
+    },
+    {
+      "n": 16,
+      "k": 5,
+      "rank": 15,
+      "common_qubit_dimension": 16384
+    },
+    {
+      "n": 16,
+      "k": 6,
+      "rank": 15,
+      "common_qubit_dimension": 16384
+    },
+    {
+      "n": 16,
+      "k": 7,
+      "rank": 15,
+      "common_qubit_dimension": 16384
+    },
+    {
+      "n": 16,
+      "k": 8,
+      "rank": 15,
+      "common_qubit_dimension": 16384
+    },
+    {
+      "n": 16,
+      "k": 9,
+      "rank": 15,
+      "common_qubit_dimension": 16384
+    },
+    {
+      "n": 16,
+      "k": 10,
+      "rank": 15,
+      "common_qubit_dimension": 16384
+    },
+    {
+      "n": 16,
+      "k": 11,
+      "rank": 15,
+      "common_qubit_dimension": 16384
+    },
+    {
+      "n": 16,
+      "k": 12,
+      "rank": 15,
+      "common_qubit_dimension": 16384
+    },
+    {
+      "n": 16,
+      "k": 13,
+      "rank": 15,
+      "common_qubit_dimension": 16384
+    },
+    {
+      "n": 16,
+      "k": 14,
+      "rank": 15,
+      "common_qubit_dimension": 16384
+    },
+    {
+      "n": 16,
+      "k": 15,
+      "rank": 15,
+      "common_qubit_dimension": 16384
+    },
+    {
+      "n": 17,
+      "k": 0,
+      "rank": 16,
+      "common_qubit_dimension": 32768
+    },
+    {
+      "n": 17,
+      "k": 1,
+      "rank": 15,
+      "common_qubit_dimension": 16384
+    },
+    {
+      "n": 17,
+      "k": 2,
+      "rank": 16,
+      "common_qubit_dimension": 32768
+    },
+    {
+      "n": 17,
+      "k": 3,
+      "rank": 15,
+      "common_qubit_dimension": 16384
+    },
+    {
+      "n": 17,
+      "k": 4,
+      "rank": 16,
+      "common_qubit_dimension": 32768
+    },
+    {
+      "n": 17,
+      "k": 5,
+      "rank": 15,
+      "common_qubit_dimension": 16384
+    },
+    {
+      "n": 17,
+      "k": 6,
+      "rank": 16,
+      "common_qubit_dimension": 32768
+    },
+    {
+      "n": 17,
+      "k": 7,
+      "rank": 15,
+      "common_qubit_dimension": 16384
+    },
+    {
+      "n": 17,
+      "k": 8,
+      "rank": 16,
+      "common_qubit_dimension": 32768
+    },
+    {
+      "n": 17,
+      "k": 9,
+      "rank": 15,
+      "common_qubit_dimension": 16384
+    },
+    {
+      "n": 17,
+      "k": 10,
+      "rank": 16,
+      "common_qubit_dimension": 32768
+    },
+    {
+      "n": 17,
+      "k": 11,
+      "rank": 15,
+      "common_qubit_dimension": 16384
+    },
+    {
+      "n": 17,
+      "k": 12,
+      "rank": 16,
+      "common_qubit_dimension": 32768
+    },
+    {
+      "n": 17,
+      "k": 13,
+      "rank": 15,
+      "common_qubit_dimension": 16384
+    },
+    {
+      "n": 17,
+      "k": 14,
+      "rank": 16,
+      "common_qubit_dimension": 32768
+    },
+    {
+      "n": 17,
+      "k": 15,
+      "rank": 15,
+      "common_qubit_dimension": 16384
+    },
+    {
+      "n": 17,
+      "k": 16,
+      "rank": 16,
+      "common_qubit_dimension": 32768
+    },
+    {
+      "n": 18,
+      "k": 0,
+      "rank": 17,
+      "common_qubit_dimension": 65536
+    },
+    {
+      "n": 18,
+      "k": 1,
+      "rank": 17,
+      "common_qubit_dimension": 65536
+    },
+    {
+      "n": 18,
+      "k": 2,
+      "rank": 17,
+      "common_qubit_dimension": 65536
+    },
+    {
+      "n": 18,
+      "k": 3,
+      "rank": 17,
+      "common_qubit_dimension": 65536
+    },
+    {
+      "n": 18,
+      "k": 4,
+      "rank": 17,
+      "common_qubit_dimension": 65536
+    },
+    {
+      "n": 18,
+      "k": 5,
+      "rank": 17,
+      "common_qubit_dimension": 65536
+    },
+    {
+      "n": 18,
+      "k": 6,
+      "rank": 17,
+      "common_qubit_dimension": 65536
+    },
+    {
+      "n": 18,
+      "k": 7,
+      "rank": 17,
+      "common_qubit_dimension": 65536
+    },
+    {
+      "n": 18,
+      "k": 8,
+      "rank": 17,
+      "common_qubit_dimension": 65536
+    },
+    {
+      "n": 18,
+      "k": 9,
+      "rank": 17,
+      "common_qubit_dimension": 65536
+    },
+    {
+      "n": 18,
+      "k": 10,
+      "rank": 17,
+      "common_qubit_dimension": 65536
+    },
+    {
+      "n": 18,
+      "k": 11,
+      "rank": 17,
+      "common_qubit_dimension": 65536
+    },
+    {
+      "n": 18,
+      "k": 12,
+      "rank": 17,
+      "common_qubit_dimension": 65536
+    },
+    {
+      "n": 18,
+      "k": 13,
+      "rank": 17,
+      "common_qubit_dimension": 65536
+    },
+    {
+      "n": 18,
+      "k": 14,
+      "rank": 17,
+      "common_qubit_dimension": 65536
+    },
+    {
+      "n": 18,
+      "k": 15,
+      "rank": 17,
+      "common_qubit_dimension": 65536
+    },
+    {
+      "n": 18,
+      "k": 16,
+      "rank": 17,
+      "common_qubit_dimension": 65536
+    },
+    {
+      "n": 18,
+      "k": 17,
+      "rank": 17,
+      "common_qubit_dimension": 65536
+    },
+    {
+      "n": 19,
+      "k": 0,
+      "rank": 18,
+      "common_qubit_dimension": 131072
+    },
+    {
+      "n": 19,
+      "k": 1,
+      "rank": 17,
+      "common_qubit_dimension": 65536
+    },
+    {
+      "n": 19,
+      "k": 2,
+      "rank": 18,
+      "common_qubit_dimension": 131072
+    },
+    {
+      "n": 19,
+      "k": 3,
+      "rank": 17,
+      "common_qubit_dimension": 65536
+    },
+    {
+      "n": 19,
+      "k": 4,
+      "rank": 18,
+      "common_qubit_dimension": 131072
+    },
+    {
+      "n": 19,
+      "k": 5,
+      "rank": 17,
+      "common_qubit_dimension": 65536
+    },
+    {
+      "n": 19,
+      "k": 6,
+      "rank": 18,
+      "common_qubit_dimension": 131072
+    },
+    {
+      "n": 19,
+      "k": 7,
+      "rank": 17,
+      "common_qubit_dimension": 65536
+    },
+    {
+      "n": 19,
+      "k": 8,
+      "rank": 18,
+      "common_qubit_dimension": 131072
+    },
+    {
+      "n": 19,
+      "k": 9,
+      "rank": 17,
+      "common_qubit_dimension": 65536
+    },
+    {
+      "n": 19,
+      "k": 10,
+      "rank": 18,
+      "common_qubit_dimension": 131072
+    },
+    {
+      "n": 19,
+      "k": 11,
+      "rank": 17,
+      "common_qubit_dimension": 65536
+    },
+    {
+      "n": 19,
+      "k": 12,
+      "rank": 18,
+      "common_qubit_dimension": 131072
+    },
+    {
+      "n": 19,
+      "k": 13,
+      "rank": 17,
+      "common_qubit_dimension": 65536
+    },
+    {
+      "n": 19,
+      "k": 14,
+      "rank": 18,
+      "common_qubit_dimension": 131072
+    },
+    {
+      "n": 19,
+      "k": 15,
+      "rank": 17,
+      "common_qubit_dimension": 65536
+    },
+    {
+      "n": 19,
+      "k": 16,
+      "rank": 18,
+      "common_qubit_dimension": 131072
+    },
+    {
+      "n": 19,
+      "k": 17,
+      "rank": 17,
+      "common_qubit_dimension": 65536
+    },
+    {
+      "n": 19,
+      "k": 18,
+      "rank": 18,
+      "common_qubit_dimension": 131072
+    },
+    {
+      "n": 20,
+      "k": 0,
+      "rank": 19,
+      "common_qubit_dimension": 262144
+    },
+    {
+      "n": 20,
+      "k": 1,
+      "rank": 19,
+      "common_qubit_dimension": 262144
+    },
+    {
+      "n": 20,
+      "k": 2,
+      "rank": 19,
+      "common_qubit_dimension": 262144
+    },
+    {
+      "n": 20,
+      "k": 3,
+      "rank": 19,
+      "common_qubit_dimension": 262144
+    },
+    {
+      "n": 20,
+      "k": 4,
+      "rank": 19,
+      "common_qubit_dimension": 262144
+    },
+    {
+      "n": 20,
+      "k": 5,
+      "rank": 19,
+      "common_qubit_dimension": 262144
+    },
+    {
+      "n": 20,
+      "k": 6,
+      "rank": 19,
+      "common_qubit_dimension": 262144
+    },
+    {
+      "n": 20,
+      "k": 7,
+      "rank": 19,
+      "common_qubit_dimension": 262144
+    },
+    {
+      "n": 20,
+      "k": 8,
+      "rank": 19,
+      "common_qubit_dimension": 262144
+    },
+    {
+      "n": 20,
+      "k": 9,
+      "rank": 19,
+      "common_qubit_dimension": 262144
+    },
+    {
+      "n": 20,
+      "k": 10,
+      "rank": 19,
+      "common_qubit_dimension": 262144
+    },
+    {
+      "n": 20,
+      "k": 11,
+      "rank": 19,
+      "common_qubit_dimension": 262144
+    },
+    {
+      "n": 20,
+      "k": 12,
+      "rank": 19,
+      "common_qubit_dimension": 262144
+    },
+    {
+      "n": 20,
+      "k": 13,
+      "rank": 19,
+      "common_qubit_dimension": 262144
+    },
+    {
+      "n": 20,
+      "k": 14,
+      "rank": 19,
+      "common_qubit_dimension": 262144
+    },
+    {
+      "n": 20,
+      "k": 15,
+      "rank": 19,
+      "common_qubit_dimension": 262144
+    },
+    {
+      "n": 20,
+      "k": 16,
+      "rank": 19,
+      "common_qubit_dimension": 262144
+    },
+    {
+      "n": 20,
+      "k": 17,
+      "rank": 19,
+      "common_qubit_dimension": 262144
+    },
+    {
+      "n": 20,
+      "k": 18,
+      "rank": 19,
+      "common_qubit_dimension": 262144
+    },
+    {
+      "n": 20,
+      "k": 19,
+      "rank": 19,
+      "common_qubit_dimension": 262144
+    },
+    {
+      "n": 21,
+      "k": 0,
+      "rank": 20,
+      "common_qubit_dimension": 524288
+    },
+    {
+      "n": 21,
+      "k": 1,
+      "rank": 19,
+      "common_qubit_dimension": 262144
+    },
+    {
+      "n": 21,
+      "k": 2,
+      "rank": 20,
+      "common_qubit_dimension": 524288
+    },
+    {
+      "n": 21,
+      "k": 3,
+      "rank": 19,
+      "common_qubit_dimension": 262144
+    },
+    {
+      "n": 21,
+      "k": 4,
+      "rank": 20,
+      "common_qubit_dimension": 524288
+    },
+    {
+      "n": 21,
+      "k": 5,
+      "rank": 19,
+      "common_qubit_dimension": 262144
+    },
+    {
+      "n": 21,
+      "k": 6,
+      "rank": 20,
+      "common_qubit_dimension": 524288
+    },
+    {
+      "n": 21,
+      "k": 7,
+      "rank": 19,
+      "common_qubit_dimension": 262144
+    },
+    {
+      "n": 21,
+      "k": 8,
+      "rank": 20,
+      "common_qubit_dimension": 524288
+    },
+    {
+      "n": 21,
+      "k": 9,
+      "rank": 19,
+      "common_qubit_dimension": 262144
+    },
+    {
+      "n": 21,
+      "k": 10,
+      "rank": 20,
+      "common_qubit_dimension": 524288
+    },
+    {
+      "n": 21,
+      "k": 11,
+      "rank": 19,
+      "common_qubit_dimension": 262144
+    },
+    {
+      "n": 21,
+      "k": 12,
+      "rank": 20,
+      "common_qubit_dimension": 524288
+    },
+    {
+      "n": 21,
+      "k": 13,
+      "rank": 19,
+      "common_qubit_dimension": 262144
+    },
+    {
+      "n": 21,
+      "k": 14,
+      "rank": 20,
+      "common_qubit_dimension": 524288
+    },
+    {
+      "n": 21,
+      "k": 15,
+      "rank": 19,
+      "common_qubit_dimension": 262144
+    },
+    {
+      "n": 21,
+      "k": 16,
+      "rank": 20,
+      "common_qubit_dimension": 524288
+    },
+    {
+      "n": 21,
+      "k": 17,
+      "rank": 19,
+      "common_qubit_dimension": 262144
+    },
+    {
+      "n": 21,
+      "k": 18,
+      "rank": 20,
+      "common_qubit_dimension": 524288
+    },
+    {
+      "n": 21,
+      "k": 19,
+      "rank": 19,
+      "common_qubit_dimension": 262144
+    },
+    {
+      "n": 21,
+      "k": 20,
+      "rank": 20,
+      "common_qubit_dimension": 524288
+    },
+    {
+      "n": 22,
+      "k": 0,
+      "rank": 21,
+      "common_qubit_dimension": 1048576
+    },
+    {
+      "n": 22,
+      "k": 1,
+      "rank": 21,
+      "common_qubit_dimension": 1048576
+    },
+    {
+      "n": 22,
+      "k": 2,
+      "rank": 21,
+      "common_qubit_dimension": 1048576
+    },
+    {
+      "n": 22,
+      "k": 3,
+      "rank": 21,
+      "common_qubit_dimension": 1048576
+    },
+    {
+      "n": 22,
+      "k": 4,
+      "rank": 21,
+      "common_qubit_dimension": 1048576
+    },
+    {
+      "n": 22,
+      "k": 5,
+      "rank": 21,
+      "common_qubit_dimension": 1048576
+    },
+    {
+      "n": 22,
+      "k": 6,
+      "rank": 21,
+      "common_qubit_dimension": 1048576
+    },
+    {
+      "n": 22,
+      "k": 7,
+      "rank": 21,
+      "common_qubit_dimension": 1048576
+    },
+    {
+      "n": 22,
+      "k": 8,
+      "rank": 21,
+      "common_qubit_dimension": 1048576
+    },
+    {
+      "n": 22,
+      "k": 9,
+      "rank": 21,
+      "common_qubit_dimension": 1048576
+    },
+    {
+      "n": 22,
+      "k": 10,
+      "rank": 21,
+      "common_qubit_dimension": 1048576
+    },
+    {
+      "n": 22,
+      "k": 11,
+      "rank": 21,
+      "common_qubit_dimension": 1048576
+    },
+    {
+      "n": 22,
+      "k": 12,
+      "rank": 21,
+      "common_qubit_dimension": 1048576
+    },
+    {
+      "n": 22,
+      "k": 13,
+      "rank": 21,
+      "common_qubit_dimension": 1048576
+    },
+    {
+      "n": 22,
+      "k": 14,
+      "rank": 21,
+      "common_qubit_dimension": 1048576
+    },
+    {
+      "n": 22,
+      "k": 15,
+      "rank": 21,
+      "common_qubit_dimension": 1048576
+    },
+    {
+      "n": 22,
+      "k": 16,
+      "rank": 21,
+      "common_qubit_dimension": 1048576
+    },
+    {
+      "n": 22,
+      "k": 17,
+      "rank": 21,
+      "common_qubit_dimension": 1048576
+    },
+    {
+      "n": 22,
+      "k": 18,
+      "rank": 21,
+      "common_qubit_dimension": 1048576
+    },
+    {
+      "n": 22,
+      "k": 19,
+      "rank": 21,
+      "common_qubit_dimension": 1048576
+    },
+    {
+      "n": 22,
+      "k": 20,
+      "rank": 21,
+      "common_qubit_dimension": 1048576
+    },
+    {
+      "n": 22,
+      "k": 21,
+      "rank": 21,
+      "common_qubit_dimension": 1048576
+    },
+    {
+      "n": 23,
+      "k": 0,
+      "rank": 22,
+      "common_qubit_dimension": 2097152
+    },
+    {
+      "n": 23,
+      "k": 1,
+      "rank": 21,
+      "common_qubit_dimension": 1048576
+    },
+    {
+      "n": 23,
+      "k": 2,
+      "rank": 22,
+      "common_qubit_dimension": 2097152
+    },
+    {
+      "n": 23,
+      "k": 3,
+      "rank": 21,
+      "common_qubit_dimension": 1048576
+    },
+    {
+      "n": 23,
+      "k": 4,
+      "rank": 22,
+      "common_qubit_dimension": 2097152
+    },
+    {
+      "n": 23,
+      "k": 5,
+      "rank": 21,
+      "common_qubit_dimension": 1048576
+    },
+    {
+      "n": 23,
+      "k": 6,
+      "rank": 22,
+      "common_qubit_dimension": 2097152
+    },
+    {
+      "n": 23,
+      "k": 7,
+      "rank": 21,
+      "common_qubit_dimension": 1048576
+    },
+    {
+      "n": 23,
+      "k": 8,
+      "rank": 22,
+      "common_qubit_dimension": 2097152
+    },
+    {
+      "n": 23,
+      "k": 9,
+      "rank": 21,
+      "common_qubit_dimension": 1048576
+    },
+    {
+      "n": 23,
+      "k": 10,
+      "rank": 22,
+      "common_qubit_dimension": 2097152
+    },
+    {
+      "n": 23,
+      "k": 11,
+      "rank": 21,
+      "common_qubit_dimension": 1048576
+    },
+    {
+      "n": 23,
+      "k": 12,
+      "rank": 22,
+      "common_qubit_dimension": 2097152
+    },
+    {
+      "n": 23,
+      "k": 13,
+      "rank": 21,
+      "common_qubit_dimension": 1048576
+    },
+    {
+      "n": 23,
+      "k": 14,
+      "rank": 22,
+      "common_qubit_dimension": 2097152
+    },
+    {
+      "n": 23,
+      "k": 15,
+      "rank": 21,
+      "common_qubit_dimension": 1048576
+    },
+    {
+      "n": 23,
+      "k": 16,
+      "rank": 22,
+      "common_qubit_dimension": 2097152
+    },
+    {
+      "n": 23,
+      "k": 17,
+      "rank": 21,
+      "common_qubit_dimension": 1048576
+    },
+    {
+      "n": 23,
+      "k": 18,
+      "rank": 22,
+      "common_qubit_dimension": 2097152
+    },
+    {
+      "n": 23,
+      "k": 19,
+      "rank": 21,
+      "common_qubit_dimension": 1048576
+    },
+    {
+      "n": 23,
+      "k": 20,
+      "rank": 22,
+      "common_qubit_dimension": 2097152
+    },
+    {
+      "n": 23,
+      "k": 21,
+      "rank": 21,
+      "common_qubit_dimension": 1048576
+    },
+    {
+      "n": 23,
+      "k": 22,
+      "rank": 22,
+      "common_qubit_dimension": 2097152
+    },
+    {
+      "n": 24,
+      "k": 0,
+      "rank": 23,
+      "common_qubit_dimension": 4194304
+    },
+    {
+      "n": 24,
+      "k": 1,
+      "rank": 23,
+      "common_qubit_dimension": 4194304
+    },
+    {
+      "n": 24,
+      "k": 2,
+      "rank": 23,
+      "common_qubit_dimension": 4194304
+    },
+    {
+      "n": 24,
+      "k": 3,
+      "rank": 23,
+      "common_qubit_dimension": 4194304
+    },
+    {
+      "n": 24,
+      "k": 4,
+      "rank": 23,
+      "common_qubit_dimension": 4194304
+    },
+    {
+      "n": 24,
+      "k": 5,
+      "rank": 23,
+      "common_qubit_dimension": 4194304
+    },
+    {
+      "n": 24,
+      "k": 6,
+      "rank": 23,
+      "common_qubit_dimension": 4194304
+    },
+    {
+      "n": 24,
+      "k": 7,
+      "rank": 23,
+      "common_qubit_dimension": 4194304
+    },
+    {
+      "n": 24,
+      "k": 8,
+      "rank": 23,
+      "common_qubit_dimension": 4194304
+    },
+    {
+      "n": 24,
+      "k": 9,
+      "rank": 23,
+      "common_qubit_dimension": 4194304
+    },
+    {
+      "n": 24,
+      "k": 10,
+      "rank": 23,
+      "common_qubit_dimension": 4194304
+    },
+    {
+      "n": 24,
+      "k": 11,
+      "rank": 23,
+      "common_qubit_dimension": 4194304
+    },
+    {
+      "n": 24,
+      "k": 12,
+      "rank": 23,
+      "common_qubit_dimension": 4194304
+    },
+    {
+      "n": 24,
+      "k": 13,
+      "rank": 23,
+      "common_qubit_dimension": 4194304
+    },
+    {
+      "n": 24,
+      "k": 14,
+      "rank": 23,
+      "common_qubit_dimension": 4194304
+    },
+    {
+      "n": 24,
+      "k": 15,
+      "rank": 23,
+      "common_qubit_dimension": 4194304
+    },
+    {
+      "n": 24,
+      "k": 16,
+      "rank": 23,
+      "common_qubit_dimension": 4194304
+    },
+    {
+      "n": 24,
+      "k": 17,
+      "rank": 23,
+      "common_qubit_dimension": 4194304
+    },
+    {
+      "n": 24,
+      "k": 18,
+      "rank": 23,
+      "common_qubit_dimension": 4194304
+    },
+    {
+      "n": 24,
+      "k": 19,
+      "rank": 23,
+      "common_qubit_dimension": 4194304
+    },
+    {
+      "n": 24,
+      "k": 20,
+      "rank": 23,
+      "common_qubit_dimension": 4194304
+    },
+    {
+      "n": 24,
+      "k": 21,
+      "rank": 23,
+      "common_qubit_dimension": 4194304
+    },
+    {
+      "n": 24,
+      "k": 22,
+      "rank": 23,
+      "common_qubit_dimension": 4194304
+    },
+    {
+      "n": 24,
+      "k": 23,
+      "rank": 23,
+      "common_qubit_dimension": 4194304
+    },
+    {
+      "n": 25,
+      "k": 0,
+      "rank": 24,
+      "common_qubit_dimension": 8388608
+    },
+    {
+      "n": 25,
+      "k": 1,
+      "rank": 23,
+      "common_qubit_dimension": 4194304
+    },
+    {
+      "n": 25,
+      "k": 2,
+      "rank": 24,
+      "common_qubit_dimension": 8388608
+    },
+    {
+      "n": 25,
+      "k": 3,
+      "rank": 23,
+      "common_qubit_dimension": 4194304
+    },
+    {
+      "n": 25,
+      "k": 4,
+      "rank": 24,
+      "common_qubit_dimension": 8388608
+    },
+    {
+      "n": 25,
+      "k": 5,
+      "rank": 23,
+      "common_qubit_dimension": 4194304
+    },
+    {
+      "n": 25,
+      "k": 6,
+      "rank": 24,
+      "common_qubit_dimension": 8388608
+    },
+    {
+      "n": 25,
+      "k": 7,
+      "rank": 23,
+      "common_qubit_dimension": 4194304
+    },
+    {
+      "n": 25,
+      "k": 8,
+      "rank": 24,
+      "common_qubit_dimension": 8388608
+    },
+    {
+      "n": 25,
+      "k": 9,
+      "rank": 23,
+      "common_qubit_dimension": 4194304
+    },
+    {
+      "n": 25,
+      "k": 10,
+      "rank": 24,
+      "common_qubit_dimension": 8388608
+    },
+    {
+      "n": 25,
+      "k": 11,
+      "rank": 23,
+      "common_qubit_dimension": 4194304
+    },
+    {
+      "n": 25,
+      "k": 12,
+      "rank": 24,
+      "common_qubit_dimension": 8388608
+    },
+    {
+      "n": 25,
+      "k": 13,
+      "rank": 23,
+      "common_qubit_dimension": 4194304
+    },
+    {
+      "n": 25,
+      "k": 14,
+      "rank": 24,
+      "common_qubit_dimension": 8388608
+    },
+    {
+      "n": 25,
+      "k": 15,
+      "rank": 23,
+      "common_qubit_dimension": 4194304
+    },
+    {
+      "n": 25,
+      "k": 16,
+      "rank": 24,
+      "common_qubit_dimension": 8388608
+    },
+    {
+      "n": 25,
+      "k": 17,
+      "rank": 23,
+      "common_qubit_dimension": 4194304
+    },
+    {
+      "n": 25,
+      "k": 18,
+      "rank": 24,
+      "common_qubit_dimension": 8388608
+    },
+    {
+      "n": 25,
+      "k": 19,
+      "rank": 23,
+      "common_qubit_dimension": 4194304
+    },
+    {
+      "n": 25,
+      "k": 20,
+      "rank": 24,
+      "common_qubit_dimension": 8388608
+    },
+    {
+      "n": 25,
+      "k": 21,
+      "rank": 23,
+      "common_qubit_dimension": 4194304
+    },
+    {
+      "n": 25,
+      "k": 22,
+      "rank": 24,
+      "common_qubit_dimension": 8388608
+    },
+    {
+      "n": 25,
+      "k": 23,
+      "rank": 23,
+      "common_qubit_dimension": 4194304
+    },
+    {
+      "n": 25,
+      "k": 24,
+      "rank": 24,
+      "common_qubit_dimension": 8388608
+    },
+    {
+      "n": 26,
+      "k": 0,
+      "rank": 25,
+      "common_qubit_dimension": 16777216
+    },
+    {
+      "n": 26,
+      "k": 1,
+      "rank": 25,
+      "common_qubit_dimension": 16777216
+    },
+    {
+      "n": 26,
+      "k": 2,
+      "rank": 25,
+      "common_qubit_dimension": 16777216
+    },
+    {
+      "n": 26,
+      "k": 3,
+      "rank": 25,
+      "common_qubit_dimension": 16777216
+    },
+    {
+      "n": 26,
+      "k": 4,
+      "rank": 25,
+      "common_qubit_dimension": 16777216
+    },
+    {
+      "n": 26,
+      "k": 5,
+      "rank": 25,
+      "common_qubit_dimension": 16777216
+    },
+    {
+      "n": 26,
+      "k": 6,
+      "rank": 25,
+      "common_qubit_dimension": 16777216
+    },
+    {
+      "n": 26,
+      "k": 7,
+      "rank": 25,
+      "common_qubit_dimension": 16777216
+    },
+    {
+      "n": 26,
+      "k": 8,
+      "rank": 25,
+      "common_qubit_dimension": 16777216
+    },
+    {
+      "n": 26,
+      "k": 9,
+      "rank": 25,
+      "common_qubit_dimension": 16777216
+    },
+    {
+      "n": 26,
+      "k": 10,
+      "rank": 25,
+      "common_qubit_dimension": 16777216
+    },
+    {
+      "n": 26,
+      "k": 11,
+      "rank": 25,
+      "common_qubit_dimension": 16777216
+    },
+    {
+      "n": 26,
+      "k": 12,
+      "rank": 25,
+      "common_qubit_dimension": 16777216
+    },
+    {
+      "n": 26,
+      "k": 13,
+      "rank": 25,
+      "common_qubit_dimension": 16777216
+    },
+    {
+      "n": 26,
+      "k": 14,
+      "rank": 25,
+      "common_qubit_dimension": 16777216
+    },
+    {
+      "n": 26,
+      "k": 15,
+      "rank": 25,
+      "common_qubit_dimension": 16777216
+    },
+    {
+      "n": 26,
+      "k": 16,
+      "rank": 25,
+      "common_qubit_dimension": 16777216
+    },
+    {
+      "n": 26,
+      "k": 17,
+      "rank": 25,
+      "common_qubit_dimension": 16777216
+    },
+    {
+      "n": 26,
+      "k": 18,
+      "rank": 25,
+      "common_qubit_dimension": 16777216
+    },
+    {
+      "n": 26,
+      "k": 19,
+      "rank": 25,
+      "common_qubit_dimension": 16777216
+    },
+    {
+      "n": 26,
+      "k": 20,
+      "rank": 25,
+      "common_qubit_dimension": 16777216
+    },
+    {
+      "n": 26,
+      "k": 21,
+      "rank": 25,
+      "common_qubit_dimension": 16777216
+    },
+    {
+      "n": 26,
+      "k": 22,
+      "rank": 25,
+      "common_qubit_dimension": 16777216
+    },
+    {
+      "n": 26,
+      "k": 23,
+      "rank": 25,
+      "common_qubit_dimension": 16777216
+    },
+    {
+      "n": 26,
+      "k": 24,
+      "rank": 25,
+      "common_qubit_dimension": 16777216
+    },
+    {
+      "n": 26,
+      "k": 25,
+      "rank": 25,
+      "common_qubit_dimension": 16777216
+    },
+    {
+      "n": 27,
+      "k": 0,
+      "rank": 26,
+      "common_qubit_dimension": 33554432
+    },
+    {
+      "n": 27,
+      "k": 1,
+      "rank": 25,
+      "common_qubit_dimension": 16777216
+    },
+    {
+      "n": 27,
+      "k": 2,
+      "rank": 26,
+      "common_qubit_dimension": 33554432
+    },
+    {
+      "n": 27,
+      "k": 3,
+      "rank": 25,
+      "common_qubit_dimension": 16777216
+    },
+    {
+      "n": 27,
+      "k": 4,
+      "rank": 26,
+      "common_qubit_dimension": 33554432
+    },
+    {
+      "n": 27,
+      "k": 5,
+      "rank": 25,
+      "common_qubit_dimension": 16777216
+    },
+    {
+      "n": 27,
+      "k": 6,
+      "rank": 26,
+      "common_qubit_dimension": 33554432
+    },
+    {
+      "n": 27,
+      "k": 7,
+      "rank": 25,
+      "common_qubit_dimension": 16777216
+    },
+    {
+      "n": 27,
+      "k": 8,
+      "rank": 26,
+      "common_qubit_dimension": 33554432
+    },
+    {
+      "n": 27,
+      "k": 9,
+      "rank": 25,
+      "common_qubit_dimension": 16777216
+    },
+    {
+      "n": 27,
+      "k": 10,
+      "rank": 26,
+      "common_qubit_dimension": 33554432
+    },
+    {
+      "n": 27,
+      "k": 11,
+      "rank": 25,
+      "common_qubit_dimension": 16777216
+    },
+    {
+      "n": 27,
+      "k": 12,
+      "rank": 26,
+      "common_qubit_dimension": 33554432
+    },
+    {
+      "n": 27,
+      "k": 13,
+      "rank": 25,
+      "common_qubit_dimension": 16777216
+    },
+    {
+      "n": 27,
+      "k": 14,
+      "rank": 26,
+      "common_qubit_dimension": 33554432
+    },
+    {
+      "n": 27,
+      "k": 15,
+      "rank": 25,
+      "common_qubit_dimension": 16777216
+    },
+    {
+      "n": 27,
+      "k": 16,
+      "rank": 26,
+      "common_qubit_dimension": 33554432
+    },
+    {
+      "n": 27,
+      "k": 17,
+      "rank": 25,
+      "common_qubit_dimension": 16777216
+    },
+    {
+      "n": 27,
+      "k": 18,
+      "rank": 26,
+      "common_qubit_dimension": 33554432
+    },
+    {
+      "n": 27,
+      "k": 19,
+      "rank": 25,
+      "common_qubit_dimension": 16777216
+    },
+    {
+      "n": 27,
+      "k": 20,
+      "rank": 26,
+      "common_qubit_dimension": 33554432
+    },
+    {
+      "n": 27,
+      "k": 21,
+      "rank": 25,
+      "common_qubit_dimension": 16777216
+    },
+    {
+      "n": 27,
+      "k": 22,
+      "rank": 26,
+      "common_qubit_dimension": 33554432
+    },
+    {
+      "n": 27,
+      "k": 23,
+      "rank": 25,
+      "common_qubit_dimension": 16777216
+    },
+    {
+      "n": 27,
+      "k": 24,
+      "rank": 26,
+      "common_qubit_dimension": 33554432
+    },
+    {
+      "n": 27,
+      "k": 25,
+      "rank": 25,
+      "common_qubit_dimension": 16777216
+    },
+    {
+      "n": 27,
+      "k": 26,
+      "rank": 26,
+      "common_qubit_dimension": 33554432
+    },
+    {
+      "n": 28,
+      "k": 0,
+      "rank": 27,
+      "common_qubit_dimension": 67108864
+    },
+    {
+      "n": 28,
+      "k": 1,
+      "rank": 27,
+      "common_qubit_dimension": 67108864
+    },
+    {
+      "n": 28,
+      "k": 2,
+      "rank": 27,
+      "common_qubit_dimension": 67108864
+    },
+    {
+      "n": 28,
+      "k": 3,
+      "rank": 27,
+      "common_qubit_dimension": 67108864
+    },
+    {
+      "n": 28,
+      "k": 4,
+      "rank": 27,
+      "common_qubit_dimension": 67108864
+    },
+    {
+      "n": 28,
+      "k": 5,
+      "rank": 27,
+      "common_qubit_dimension": 67108864
+    },
+    {
+      "n": 28,
+      "k": 6,
+      "rank": 27,
+      "common_qubit_dimension": 67108864
+    },
+    {
+      "n": 28,
+      "k": 7,
+      "rank": 27,
+      "common_qubit_dimension": 67108864
+    },
+    {
+      "n": 28,
+      "k": 8,
+      "rank": 27,
+      "common_qubit_dimension": 67108864
+    },
+    {
+      "n": 28,
+      "k": 9,
+      "rank": 27,
+      "common_qubit_dimension": 67108864
+    },
+    {
+      "n": 28,
+      "k": 10,
+      "rank": 27,
+      "common_qubit_dimension": 67108864
+    },
+    {
+      "n": 28,
+      "k": 11,
+      "rank": 27,
+      "common_qubit_dimension": 67108864
+    },
+    {
+      "n": 28,
+      "k": 12,
+      "rank": 27,
+      "common_qubit_dimension": 67108864
+    },
+    {
+      "n": 28,
+      "k": 13,
+      "rank": 27,
+      "common_qubit_dimension": 67108864
+    },
+    {
+      "n": 28,
+      "k": 14,
+      "rank": 27,
+      "common_qubit_dimension": 67108864
+    },
+    {
+      "n": 28,
+      "k": 15,
+      "rank": 27,
+      "common_qubit_dimension": 67108864
+    },
+    {
+      "n": 28,
+      "k": 16,
+      "rank": 27,
+      "common_qubit_dimension": 67108864
+    },
+    {
+      "n": 28,
+      "k": 17,
+      "rank": 27,
+      "common_qubit_dimension": 67108864
+    },
+    {
+      "n": 28,
+      "k": 18,
+      "rank": 27,
+      "common_qubit_dimension": 67108864
+    },
+    {
+      "n": 28,
+      "k": 19,
+      "rank": 27,
+      "common_qubit_dimension": 67108864
+    },
+    {
+      "n": 28,
+      "k": 20,
+      "rank": 27,
+      "common_qubit_dimension": 67108864
+    },
+    {
+      "n": 28,
+      "k": 21,
+      "rank": 27,
+      "common_qubit_dimension": 67108864
+    },
+    {
+      "n": 28,
+      "k": 22,
+      "rank": 27,
+      "common_qubit_dimension": 67108864
+    },
+    {
+      "n": 28,
+      "k": 23,
+      "rank": 27,
+      "common_qubit_dimension": 67108864
+    },
+    {
+      "n": 28,
+      "k": 24,
+      "rank": 27,
+      "common_qubit_dimension": 67108864
+    },
+    {
+      "n": 28,
+      "k": 25,
+      "rank": 27,
+      "common_qubit_dimension": 67108864
+    },
+    {
+      "n": 28,
+      "k": 26,
+      "rank": 27,
+      "common_qubit_dimension": 67108864
+    },
+    {
+      "n": 28,
+      "k": 27,
+      "rank": 27,
+      "common_qubit_dimension": 67108864
+    },
+    {
+      "n": 29,
+      "k": 0,
+      "rank": 28,
+      "common_qubit_dimension": 134217728
+    },
+    {
+      "n": 29,
+      "k": 1,
+      "rank": 27,
+      "common_qubit_dimension": 67108864
+    },
+    {
+      "n": 29,
+      "k": 2,
+      "rank": 28,
+      "common_qubit_dimension": 134217728
+    },
+    {
+      "n": 29,
+      "k": 3,
+      "rank": 27,
+      "common_qubit_dimension": 67108864
+    },
+    {
+      "n": 29,
+      "k": 4,
+      "rank": 28,
+      "common_qubit_dimension": 134217728
+    },
+    {
+      "n": 29,
+      "k": 5,
+      "rank": 27,
+      "common_qubit_dimension": 67108864
+    },
+    {
+      "n": 29,
+      "k": 6,
+      "rank": 28,
+      "common_qubit_dimension": 134217728
+    },
+    {
+      "n": 29,
+      "k": 7,
+      "rank": 27,
+      "common_qubit_dimension": 67108864
+    },
+    {
+      "n": 29,
+      "k": 8,
+      "rank": 28,
+      "common_qubit_dimension": 134217728
+    },
+    {
+      "n": 29,
+      "k": 9,
+      "rank": 27,
+      "common_qubit_dimension": 67108864
+    },
+    {
+      "n": 29,
+      "k": 10,
+      "rank": 28,
+      "common_qubit_dimension": 134217728
+    },
+    {
+      "n": 29,
+      "k": 11,
+      "rank": 27,
+      "common_qubit_dimension": 67108864
+    },
+    {
+      "n": 29,
+      "k": 12,
+      "rank": 28,
+      "common_qubit_dimension": 134217728
+    },
+    {
+      "n": 29,
+      "k": 13,
+      "rank": 27,
+      "common_qubit_dimension": 67108864
+    },
+    {
+      "n": 29,
+      "k": 14,
+      "rank": 28,
+      "common_qubit_dimension": 134217728
+    },
+    {
+      "n": 29,
+      "k": 15,
+      "rank": 27,
+      "common_qubit_dimension": 67108864
+    },
+    {
+      "n": 29,
+      "k": 16,
+      "rank": 28,
+      "common_qubit_dimension": 134217728
+    },
+    {
+      "n": 29,
+      "k": 17,
+      "rank": 27,
+      "common_qubit_dimension": 67108864
+    },
+    {
+      "n": 29,
+      "k": 18,
+      "rank": 28,
+      "common_qubit_dimension": 134217728
+    },
+    {
+      "n": 29,
+      "k": 19,
+      "rank": 27,
+      "common_qubit_dimension": 67108864
+    },
+    {
+      "n": 29,
+      "k": 20,
+      "rank": 28,
+      "common_qubit_dimension": 134217728
+    },
+    {
+      "n": 29,
+      "k": 21,
+      "rank": 27,
+      "common_qubit_dimension": 67108864
+    },
+    {
+      "n": 29,
+      "k": 22,
+      "rank": 28,
+      "common_qubit_dimension": 134217728
+    },
+    {
+      "n": 29,
+      "k": 23,
+      "rank": 27,
+      "common_qubit_dimension": 67108864
+    },
+    {
+      "n": 29,
+      "k": 24,
+      "rank": 28,
+      "common_qubit_dimension": 134217728
+    },
+    {
+      "n": 29,
+      "k": 25,
+      "rank": 27,
+      "common_qubit_dimension": 67108864
+    },
+    {
+      "n": 29,
+      "k": 26,
+      "rank": 28,
+      "common_qubit_dimension": 134217728
+    },
+    {
+      "n": 29,
+      "k": 27,
+      "rank": 27,
+      "common_qubit_dimension": 67108864
+    },
+    {
+      "n": 29,
+      "k": 28,
+      "rank": 28,
+      "common_qubit_dimension": 134217728
+    },
+    {
+      "n": 30,
+      "k": 0,
+      "rank": 29,
+      "common_qubit_dimension": 268435456
+    },
+    {
+      "n": 30,
+      "k": 1,
+      "rank": 29,
+      "common_qubit_dimension": 268435456
+    },
+    {
+      "n": 30,
+      "k": 2,
+      "rank": 29,
+      "common_qubit_dimension": 268435456
+    },
+    {
+      "n": 30,
+      "k": 3,
+      "rank": 29,
+      "common_qubit_dimension": 268435456
+    },
+    {
+      "n": 30,
+      "k": 4,
+      "rank": 29,
+      "common_qubit_dimension": 268435456
+    },
+    {
+      "n": 30,
+      "k": 5,
+      "rank": 29,
+      "common_qubit_dimension": 268435456
+    },
+    {
+      "n": 30,
+      "k": 6,
+      "rank": 29,
+      "common_qubit_dimension": 268435456
+    },
+    {
+      "n": 30,
+      "k": 7,
+      "rank": 29,
+      "common_qubit_dimension": 268435456
+    },
+    {
+      "n": 30,
+      "k": 8,
+      "rank": 29,
+      "common_qubit_dimension": 268435456
+    },
+    {
+      "n": 30,
+      "k": 9,
+      "rank": 29,
+      "common_qubit_dimension": 268435456
+    },
+    {
+      "n": 30,
+      "k": 10,
+      "rank": 29,
+      "common_qubit_dimension": 268435456
+    },
+    {
+      "n": 30,
+      "k": 11,
+      "rank": 29,
+      "common_qubit_dimension": 268435456
+    },
+    {
+      "n": 30,
+      "k": 12,
+      "rank": 29,
+      "common_qubit_dimension": 268435456
+    },
+    {
+      "n": 30,
+      "k": 13,
+      "rank": 29,
+      "common_qubit_dimension": 268435456
+    },
+    {
+      "n": 30,
+      "k": 14,
+      "rank": 29,
+      "common_qubit_dimension": 268435456
+    },
+    {
+      "n": 30,
+      "k": 15,
+      "rank": 29,
+      "common_qubit_dimension": 268435456
+    },
+    {
+      "n": 30,
+      "k": 16,
+      "rank": 29,
+      "common_qubit_dimension": 268435456
+    },
+    {
+      "n": 30,
+      "k": 17,
+      "rank": 29,
+      "common_qubit_dimension": 268435456
+    },
+    {
+      "n": 30,
+      "k": 18,
+      "rank": 29,
+      "common_qubit_dimension": 268435456
+    },
+    {
+      "n": 30,
+      "k": 19,
+      "rank": 29,
+      "common_qubit_dimension": 268435456
+    },
+    {
+      "n": 30,
+      "k": 20,
+      "rank": 29,
+      "common_qubit_dimension": 268435456
+    },
+    {
+      "n": 30,
+      "k": 21,
+      "rank": 29,
+      "common_qubit_dimension": 268435456
+    },
+    {
+      "n": 30,
+      "k": 22,
+      "rank": 29,
+      "common_qubit_dimension": 268435456
+    },
+    {
+      "n": 30,
+      "k": 23,
+      "rank": 29,
+      "common_qubit_dimension": 268435456
+    },
+    {
+      "n": 30,
+      "k": 24,
+      "rank": 29,
+      "common_qubit_dimension": 268435456
+    },
+    {
+      "n": 30,
+      "k": 25,
+      "rank": 29,
+      "common_qubit_dimension": 268435456
+    },
+    {
+      "n": 30,
+      "k": 26,
+      "rank": 29,
+      "common_qubit_dimension": 268435456
+    },
+    {
+      "n": 30,
+      "k": 27,
+      "rank": 29,
+      "common_qubit_dimension": 268435456
+    },
+    {
+      "n": 30,
+      "k": 28,
+      "rank": 29,
+      "common_qubit_dimension": 268435456
+    },
+    {
+      "n": 30,
+      "k": 29,
+      "rank": 29,
+      "common_qubit_dimension": 268435456
+    }
+  ],
+  "half_upper_compatibility_finite_checks_n2_to_7": true
+}

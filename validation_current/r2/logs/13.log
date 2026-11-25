@@ -1,0 +1,32 @@
+{
+  "status": "EXACT_PASS",
+  "gap": "1/2",
+  "number_nonzero_settings": 23,
+  "front_menu": "Z,B0,B1,B2",
+  "terminal": "canonical conditional ray, NOT restricted to the three terminal bases",
+  "qubit_rejection_rates": [
+    "1/2",
+    "1/2",
+    "1",
+    "1/2",
+    "1/2",
+    "1",
+    "1",
+    "1/2",
+    "1",
+    "1/2",
+    "1",
+    "1",
+    "1",
+    "1",
+    "1"
+  ],
+  "M_definition": "R3-I/2+(3/2)P_H4",
+  "target_check": "M|H4>=|H4> exactly",
+  "PSD_certificate": "K^dagger M K strictly diagonally dominant with positive diagonal, all arithmetic integer; hence M positive definite. Orthogonal qutrit rejection strictly exceeds 1/2.",
+  "minimum_scaled_Gershgorin_margin": "1349999643896926024356487399/1350000000000000000000000000",
+  "margin_decimal_display": 0.9999997362199452,
+  "exact_gap_upper_reason": "Two endpoint-adjacent qubit error sectors give class-wide 1/2 upper bound, proved separately."
+}
+
+STDERR

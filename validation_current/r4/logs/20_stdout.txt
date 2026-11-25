@@ -1,0 +1,19 @@
+{
+  "status": "EXACT_PASS",
+  "n": 3,
+  "seconds": 0.04161220800597221,
+  "local_constraints": 342,
+  "local_constraint_types": {
+    "late": 72,
+    "early_Z": 75,
+    "early_chirp_no_early_chirp_neighbor": 42,
+    "trivial_early_pair": 153
+  },
+  "maximum_repair_penalized_rejection": "1/3",
+  "repair_upper": "1/3",
+  "witness_maximum": "1/2",
+  "all_template_values_equal_independent_CRT": true,
+  "native_templates": 48,
+  "arithmetic": "Z[omega6] integer pairs; exact squared norms, zero support, sums and per-record maxima.",
+  "note": "Optimizes every late basis choice for each raw six-valued front record; random mixtures are covered by convexity."
+}

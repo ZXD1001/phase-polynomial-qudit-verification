@@ -1,0 +1,8 @@
+{
+  "status": "EXACT_PASS",
+  "CRT_edge_phase_cases": 36,
+  "CRT_terminal_basis_phase_cases": 108,
+  "Bell_identity": "P_Phi- + P_Psi+ - P_Phi+ - P_Psi- = Y tensor Y",
+  "partial_transpose_identity": "(Y tensor Y)^T0 = -Y tensor Y",
+  "scope": "Exact local identities; all-n theorem additionally uses positivity, perfect completeness, and real-qubit leaf effects as proved in REPORT.md."
+}

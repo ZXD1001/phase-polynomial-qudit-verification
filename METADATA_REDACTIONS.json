@@ -1,0 +1,29 @@
+{
+  "scope": "Publication metadata privacy only. Scientific source, mathematical inputs and certificate values unchanged. Raw private originals retained in author control records, not required for execution.",
+  "changes": [
+    {
+      "path": "fixed_menu_width/r3/sources/Supplementary_Software/original_reproduction/results/environment.json",
+      "original_sha256": "2a43bf418b38631a4d5ff22336c46d0ce614940e0cdaebffb47a72dfcd81f42c",
+      "distributed_sha256": "7e0433bc236fad0114297e68b36b3de731679a9f516139cdc95d43770e56ca64",
+      "reason": "Redact personal home path in non-scientific environment metadata only."
+    },
+    {
+      "path": "original_reproduction/results/environment.json",
+      "original_sha256": "2a43bf418b38631a4d5ff22336c46d0ce614940e0cdaebffb47a72dfcd81f42c",
+      "distributed_sha256": "7e0433bc236fad0114297e68b36b3de731679a9f516139cdc95d43770e56ca64",
+      "reason": "Redact personal home path in non-scientific environment metadata only."
+    },
+    {
+      "path": "fixed_menu_width/r3/sources/Supplementary_Software/SHA256SUMS.txt",
+      "original_sha256": "3864e6168a15495a9552e8b4cef7d04fa3e06bd8573f5d95edabdf08c460f565",
+      "distributed_sha256": "863a60185a13e1c85ff926d4052f03cd309b6014e6453e01f26de04dd18c6c40",
+      "reason": "Refresh snapshot manifest after disclosed metadata redaction; all scientific source/input bytes unchanged."
+    },
+    {
+      "path": "fixed_menu_width/r4/source_archives/Supplementary_Software.zip",
+      "original_sha256": "1ece20ced0aea6d2a53fcb742c0b79258883f421166689ec59c7ec698762227c",
+      "distributed_sha256": "6ec5cf1f684c2b8bf0670b80eea700a45f259b9425fc16904c173e6526d35755",
+      "reason": "Redact personal home path in nested historical environment metadata; refresh its manifest, preserving scientific entries."
+    }
+  ]
+}

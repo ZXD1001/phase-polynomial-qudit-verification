@@ -1,0 +1,112 @@
+{
+  "status": "PASS",
+  "scientific_module_files": [
+    {
+      "location": "PACKAGE",
+      "path": "fixed_menu_width/r3/reproduce.py"
+    },
+    {
+      "location": "PACKAGE",
+      "path": "fixed_menu_width/r4/reproduce.py"
+    },
+    {
+      "location": "PACKAGE",
+      "path": "manuscript_tables/generate_tables.py"
+    },
+    {
+      "location": "PACKAGE",
+      "path": "portability/sitecustomize.py"
+    },
+    {
+      "location": "PACKAGE",
+      "path": "run_all.py"
+    },
+    {
+      "location": "RUN",
+      "path": "author/original_reproduction/reproduce.py"
+    },
+    {
+      "location": "RUN",
+      "path": "author/structured_benchmark/exact_n2_certificate.py"
+    },
+    {
+      "location": "RUN",
+      "path": "author/structured_benchmark/pauli_search.py"
+    },
+    {
+      "location": "RUN",
+      "path": "r1/lz_full_menu.py"
+    },
+    {
+      "location": "RUN",
+      "path": "r1/lz_optimize.py"
+    },
+    {
+      "location": "RUN",
+      "path": "r2/code/character_game.py"
+    },
+    {
+      "location": "RUN",
+      "path": "r2/code/menu_witness.py"
+    },
+    {
+      "location": "RUN",
+      "path": "r2/code/verify_native_certificate.py"
+    },
+    {
+      "location": "RUN",
+      "path": "r3/author_rerun/original_reproduction/reproduce.py"
+    },
+    {
+      "location": "RUN",
+      "path": "r3/author_rerun/structured_benchmark/exact_n2_certificate.py"
+    },
+    {
+      "location": "RUN",
+      "path": "r3/author_rerun/structured_benchmark/pauli_search.py"
+    },
+    {
+      "location": "RUN",
+      "path": "r3/code/character_game.py"
+    },
+    {
+      "location": "RUN",
+      "path": "r3/code/family_certificate.py"
+    },
+    {
+      "location": "RUN",
+      "path": "r3/code/menu_witness.py"
+    },
+    {
+      "location": "RUN",
+      "path": "r3/code/verify_native_certificate.py"
+    },
+    {
+      "location": "RUN",
+      "path": "r3/sources/Supplementary_Software/run_all.py"
+    },
+    {
+      "location": "RUN",
+      "path": "r4/code/character_game.py"
+    },
+    {
+      "location": "RUN",
+      "path": "r4/code/menu_witness.py"
+    },
+    {
+      "location": "RUN",
+      "path": "r4/code/robust_certificate.py"
+    },
+    {
+      "location": "RUN",
+      "path": "r4/code/verify_graph_lemmas.py"
+    },
+    {
+      "location": "RUN",
+      "path": "r4/code/verify_native_certificate.py"
+    }
+  ],
+  "unexpected_module_files": [],
+  "external_dependencies": "Python standard library and installed packages only; module paths recorded under import_audit/.",
+  "observed_module_file_count": 1117
+}

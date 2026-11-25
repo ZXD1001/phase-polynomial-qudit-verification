@@ -1,0 +1,186 @@
+{
+  "status": "EXACT_PASS",
+  "seconds": 0.414146333001554,
+  "cases": [
+    {
+      "n": 3,
+      "patterns": 8,
+      "pattern_mask_pairs": 64,
+      "count_bound_equalities": 5
+    },
+    {
+      "n": 4,
+      "patterns": 16,
+      "pattern_mask_pairs": 256,
+      "count_bound_equalities": 7
+    },
+    {
+      "n": 5,
+      "patterns": 32,
+      "pattern_mask_pairs": 1024,
+      "count_bound_equalities": 12
+    },
+    {
+      "n": 6,
+      "patterns": 64,
+      "pattern_mask_pairs": 4096,
+      "count_bound_equalities": 17
+    },
+    {
+      "n": 7,
+      "patterns": 128,
+      "pattern_mask_pairs": 16384,
+      "count_bound_equalities": 27
+    },
+    {
+      "n": 8,
+      "patterns": 256,
+      "pattern_mask_pairs": 65536,
+      "count_bound_equalities": 41
+    },
+    {
+      "n": 9,
+      "patterns": 512,
+      "pattern_mask_pairs": 0,
+      "count_bound_equalities": 63
+    },
+    {
+      "n": 10,
+      "patterns": 1024,
+      "pattern_mask_pairs": 0,
+      "count_bound_equalities": 97
+    },
+    {
+      "n": 11,
+      "patterns": 2048,
+      "pattern_mask_pairs": 0,
+      "count_bound_equalities": 148
+    },
+    {
+      "n": 12,
+      "patterns": 4096,
+      "pattern_mask_pairs": 0,
+      "count_bound_equalities": 228
+    }
+  ],
+  "inequalities": [
+    "K+2H <= 7T for all n>=3 (finite regression)",
+    "2F+3D_dynamic <= 2H for every early/late mask (finite regression)",
+    "parity-specific independent-set packing"
+  ],
+  "resource_table": [
+    {
+      "n": 10,
+      "Delta": "1/100",
+      "target_gap": "49/100",
+      "width_necessary": 4,
+      "width_sufficient": 5
+    },
+    {
+      "n": 10,
+      "Delta": "1/50",
+      "target_gap": "12/25",
+      "width_necessary": 4,
+      "width_sufficient": 5
+    },
+    {
+      "n": 10,
+      "Delta": "1/25",
+      "target_gap": "23/50",
+      "width_necessary": 2,
+      "width_sufficient": 4
+    },
+    {
+      "n": 10,
+      "Delta": "1/20",
+      "target_gap": "9/20",
+      "width_necessary": 1,
+      "width_sufficient": 4
+    },
+    {
+      "n": 100,
+      "Delta": "1/100",
+      "target_gap": "49/100",
+      "width_necessary": 42,
+      "width_sufficient": 49
+    },
+    {
+      "n": 100,
+      "Delta": "1/50",
+      "target_gap": "12/25",
+      "width_necessary": 33,
+      "width_sufficient": 47
+    },
+    {
+      "n": 100,
+      "Delta": "1/25",
+      "target_gap": "23/50",
+      "width_necessary": 17,
+      "width_sufficient": 44
+    },
+    {
+      "n": 100,
+      "Delta": "1/20",
+      "target_gap": "9/20",
+      "width_necessary": 8,
+      "width_sufficient": 43
+    },
+    {
+      "n": 1000,
+      "Delta": "1/100",
+      "target_gap": "49/100",
+      "width_necessary": 415,
+      "width_sufficient": 485
+    },
+    {
+      "n": 1000,
+      "Delta": "1/50",
+      "target_gap": "12/25",
+      "width_necessary": 330,
+      "width_sufficient": 470
+    },
+    {
+      "n": 1000,
+      "Delta": "1/25",
+      "target_gap": "23/50",
+      "width_necessary": 161,
+      "width_sufficient": 440
+    },
+    {
+      "n": 1000,
+      "Delta": "1/20",
+      "target_gap": "9/20",
+      "width_necessary": 76,
+      "width_sufficient": 425
+    },
+    {
+      "n": 10000,
+      "Delta": "1/100",
+      "target_gap": "49/100",
+      "width_necessary": 4150,
+      "width_sufficient": 4850
+    },
+    {
+      "n": 10000,
+      "Delta": "1/50",
+      "target_gap": "12/25",
+      "width_necessary": 3300,
+      "width_sufficient": 4700
+    },
+    {
+      "n": 10000,
+      "Delta": "1/25",
+      "target_gap": "23/50",
+      "width_necessary": 1601,
+      "width_sufficient": 4400
+    },
+    {
+      "n": 10000,
+      "Delta": "1/20",
+      "target_gap": "9/20",
+      "width_necessary": 751,
+      "width_sufficient": 4250
+    }
+  ],
+  "note": "Infinite-size claims follow from analytic proofs, not these finite enumerations."
+}

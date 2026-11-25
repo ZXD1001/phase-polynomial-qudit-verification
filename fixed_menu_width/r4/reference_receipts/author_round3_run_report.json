@@ -1,0 +1,62 @@
+{
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "source_sha256": {
+    "original_reproduction/reproduce.py": "72bd06dfe4f010f2be2e85cd800c6dfc26b3747bcf66c2f0bac6df9269cb2a37",
+    "original_reproduction/inputs.json": "5ab161fc3c8342ecb7f2cd7b7b60252d27ba43167a3926f375b6ad665af411ec",
+    "original_reproduction/provenance.json": "58a9b95543969d950ba48d84cce50e414ef8ad6165af88a693b51032d1d98d1c",
+    "original_reproduction/historical_original/validate_phase_polynomial_blocks.py": "3d3208a8ac06b42ab4e37bf9d4553fee164b3391984a99dba6664a6e26e4ca0d",
+    "lz_benchmark/benchmark_lz.py": "1f0930b14a7d330b43644779265a82e7826613184e56db415db63787c6d1f514",
+    "lz_benchmark/verify_exports.py": "6e659285db457a8b3ffd695513ad5c3ba5988ccb83ccfe3a598e848ec0ff5e67",
+    "structured_benchmark/run_benchmark.py": "9f45dd20ce7b3f668e0a2fce15890e6a82a88dc5a9110d61ba4db0166085af38",
+    "structured_benchmark/pauli_search.py": "87605f6e3c3963987249753592d9605d7569c51c618e593995a7aab0d467d405",
+    "structured_benchmark/exact_n2_certificate.py": "ade07574284544733a0302d10fdcd981011cbe993e82d8a922340ec3bf9de3e5",
+    "resources/verify_resource_model.py": "2dca9d317b7560658b1e1f2ad399a6675d6a1ca97ceb5c54e6029c9803a4fe00",
+    "summarize_results.py": "b57e6cc2bdb320318fe01a51b9b8a81003ef83ad10083a2925fd826e3a0d8290"
+  },
+  "steps": [
+    {
+      "command": [
+        "original_reproduction/reproduce.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "lz_benchmark/benchmark_lz.py",
+        "--n",
+        "2",
+        "3",
+        "4"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "lz_benchmark/verify_exports.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "structured_benchmark/run_benchmark.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "resources/verify_resource_model.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "summarize_results.py"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "destination": "/mnt/data/CP_round3_final_validation_20260930/author_rerun",
+  "source_bytes_unchanged": true,
+  "passed": true
+}

@@ -1,0 +1,121 @@
+{
+  "status": "EXACT_PASS",
+  "gauss_norm_identities": 81,
+  "finite_parameter_checks": 125249,
+  "parameter_range": "2<=n<=500; 0<=r<n",
+  "examples": [
+    {
+      "n": 2,
+      "adaptive_width": 0,
+      "claim_upper": "5/12",
+      "achievable_lower": "1/4",
+      "minimum_width_for_half": 1
+    },
+    {
+      "n": 2,
+      "adaptive_width": 1,
+      "claim_upper": "1/2",
+      "achievable_lower": "1/2",
+      "minimum_width_for_half": 1
+    },
+    {
+      "n": 3,
+      "adaptive_width": 0,
+      "claim_upper": "19/42",
+      "achievable_lower": "1/6",
+      "minimum_width_for_half": 1
+    },
+    {
+      "n": 3,
+      "adaptive_width": 1,
+      "claim_upper": "1/2",
+      "achievable_lower": "1/2",
+      "minimum_width_for_half": 1
+    },
+    {
+      "n": 4,
+      "adaptive_width": 1,
+      "claim_upper": "27/55",
+      "achievable_lower": "2/5",
+      "minimum_width_for_half": 2
+    },
+    {
+      "n": 4,
+      "adaptive_width": 2,
+      "claim_upper": "1/2",
+      "achievable_lower": "1/2",
+      "minimum_width_for_half": 2
+    },
+    {
+      "n": 5,
+      "adaptive_width": 1,
+      "claim_upper": "22/45",
+      "achievable_lower": "1/3",
+      "minimum_width_for_half": 2
+    },
+    {
+      "n": 5,
+      "adaptive_width": 2,
+      "claim_upper": "1/2",
+      "achievable_lower": "1/2",
+      "minimum_width_for_half": 2
+    },
+    {
+      "n": 6,
+      "adaptive_width": 2,
+      "claim_upper": "151/304",
+      "achievable_lower": "7/16",
+      "minimum_width_for_half": 3
+    },
+    {
+      "n": 6,
+      "adaptive_width": 3,
+      "claim_upper": "1/2",
+      "achievable_lower": "1/2",
+      "minimum_width_for_half": 3
+    },
+    {
+      "n": 7,
+      "adaptive_width": 2,
+      "claim_upper": "205/414",
+      "achievable_lower": "7/18",
+      "minimum_width_for_half": 3
+    },
+    {
+      "n": 7,
+      "adaptive_width": 3,
+      "claim_upper": "1/2",
+      "achievable_lower": "1/2",
+      "minimum_width_for_half": 3
+    },
+    {
+      "n": 8,
+      "adaptive_width": 3,
+      "claim_upper": "148/297",
+      "achievable_lower": "5/11",
+      "minimum_width_for_half": 4
+    },
+    {
+      "n": 8,
+      "adaptive_width": 4,
+      "claim_upper": "1/2",
+      "achievable_lower": "1/2",
+      "minimum_width_for_half": 4
+    },
+    {
+      "n": 100,
+      "adaptive_width": 49,
+      "claim_upper": "29427/58855",
+      "achievable_lower": "74/149",
+      "minimum_width_for_half": 50
+    },
+    {
+      "n": 100,
+      "adaptive_width": 50,
+      "claim_upper": "1/2",
+      "achievable_lower": "1/2",
+      "minimum_width_for_half": 50
+    }
+  ],
+  "seconds": 3.952655125001911
+}
